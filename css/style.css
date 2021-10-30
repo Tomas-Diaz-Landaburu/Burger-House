@@ -311,11 +311,11 @@ main .box {
   justify-content: space-around;
   flex-wrap: wrap; }
   main .box .box__div {
-    border: 2px dashed red;
     width: 500px;
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
+    margin-bottom: 60px;
     min-width: 250px; }
     main .box .box__div .box__div__mayor {
       width: calc(100% - 180px);
@@ -807,3 +807,13 @@ ul {
       grid-template-areas: "texto-history" "image-history"; }
   .image-history img {
     width: 100%; } }
+
+@media only screen and (max-width: 483px) {
+  .box__div {
+    display: flex;
+    justify-content: center; }
+  .box__div__btn {
+    display: flex;
+    width: 100%; }
+    .box__div__btn h3 {
+      text-align: center; } }

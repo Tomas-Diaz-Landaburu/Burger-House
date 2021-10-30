@@ -136,4 +136,16 @@ ul{
     }
 }
 
-
+@media only screen and (max-width: 483px){
+    .box__div{
+        display: flex;
+        justify-content: center;
+    }
+    .box__div__btn{
+        display: flex;
+        width: 100%;
+        h3{
+            text-align: center;
+        }
+    }
+}
