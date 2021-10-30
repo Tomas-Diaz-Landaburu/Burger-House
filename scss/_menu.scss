@@ -1,0 +1,112 @@
+@mixin grid_img ($grid){
+    grid-area: $grid;
+    border-radius: 20%;
+    width: 180px;
+    height: 150px;
+}
+.box__img__one{
+    @include grid_img (img1)
+}
+.box__img__two{
+    @include grid_img (img2)
+}
+.box__img__three{
+    @include grid_img (img3)
+}
+.box__img__four{
+    @include grid_img (img4)
+}
+.box__img__five{
+    @include grid_img (img5)
+}
+.box__img__six{
+    @include grid_img (img6)
+}
+main{
+    .div__intro{
+        .div__intro__img{
+            width: 100%;
+        }
+    }
+    .text{
+        .text__h2--active{
+            @extend .text__h2;
+            font-size: 3rem;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .text__p--active{
+            @extend .text__p;
+            margin: 0 20px;
+        }
+    }
+    .middle{
+        .middle__title{
+            color: $greycl-menu;
+            font-size:45px;
+            padding: 30px 0px;
+            margin-top: 20px;
+            text-align: center;
+            height: 100px;
+            width: 100%;
+            font-family: 'Eczar', serif;
+        }
+        .burger-bebida{
+            background-color: #edb026;
+            color: white;
+        }
+        .starter{
+            background-color: rgb(33, 31, 27);
+            color: white;
+        }
+    }
+    .box{
+        margin: 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .box__div{
+            border: 2px dashed red;
+            width: 500px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            min-width: 250px;
+            .box__div__mayor{
+                width: calc(100% - 180px);
+                min-width: 250px;
+                .box__div__text{
+                    margin: 5px 5px 5px 10px;
+                    & h2{
+                        font-size: 18px;
+                        font-family: 'Rubik', sans-serif;
+                        font-weight: 900;
+                    }
+                    & p{
+                        font-size: 14px;
+                        font-family: 'Rubik', sans-serif;
+                    }
+                    .box__div__btn{
+                        display: flex;
+                        justify-content: space-around;
+                        h3{
+                            padding-top: 10px;
+                            font-size: 24px;
+                            font-family: 'Inter', sans-serif;
+                        }
+                        .modal{
+                            .modal-footer__a{
+                                color: $whitecl;
+                                text-decoration: none;
+                            }
+                            .modal-footer__a:hover{
+                                color: $whitecl;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

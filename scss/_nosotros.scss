@@ -1,0 +1,40 @@
+.div-intro-nosotros{
+    #fixing-burguer{
+        width: 100%;
+        height: 500px;
+    }
+}
+.container-nosotros{
+    .box-nosotros{
+        margin-left: 10%;
+        margin-right: 10%;
+        .text-nosotros{
+            h3{
+                font-size: 40px;
+                margin-top: 90px;
+            }
+            p{
+                margin-top: 15px;
+                font-size: 20px;
+                margin-bottom: 25px;
+            }
+            h5{
+                font-size: 25px;
+                margin-bottom: 25px;
+            }
+            h4{
+                font-size: 30px;
+                margin-top: 80px;
+            }
+        }
+        .div-img-nosotros{
+            .img-nosotros{
+                width: 100%;
+                border-radius: 10px;
+            }
+            .last{
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

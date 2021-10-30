@@ -1,0 +1,72 @@
+
+.formBody{
+    background-image: url(../media/redes/1832.jpg);
+}
+form{
+        .form-regist{
+            width: 400px;
+            background-color: $bluebg-form;
+            padding: 30px;
+            margin: auto;
+            margin-bottom: 20px;
+            margin-top: 100px;
+            border-radius: 4px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: $whitecl;
+            box-shadow: 7px 13px 37px $black;
+            h4{
+                font-size: 22px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .spaces{
+                width: 100%;
+                background-color: $bluebg-form;
+                padding: 10px;
+                border-radius: 4px;
+                margin-bottom: 16px;
+                border: solid 1px $blueborder-form;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                color: white;
+            }
+            .botons{
+                width: 100%;
+                background-color: $blueborder-form;
+                border: none;
+                color: $whitecl;
+                padding: 12px;
+                margin: 16px 0;
+                margin-bottom: 20px;
+                font-size: 16px;
+
+            .sent:hover{
+                background-color:$bluesent-form;
+            }
+            p{
+                height: 40px;
+                text-align: center;
+                font-size: 16px;
+                line-height: 40px;
+            }
+        }
+    }
+}
+
+.terminos{
+    color: $whitecl;
+    color: $whitecl;
+    text-decoration: none;
+    &:hover{
+        color: $whitecl;
+        text-decoration: underline;
+    }
+}
+
+.--active{
+    @extend .terminos;
+}
+
+.account{
+    text-align: center;
+}

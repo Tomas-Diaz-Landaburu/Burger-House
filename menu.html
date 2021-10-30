@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <title>Menu | Burger House</title>
+        <!--Css-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--Social Media-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <!--Fonts Google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+        <!--KEYWORDS-->
+        <meta name="keywords" content="hamburgueseria burguerhouse hamburguesas bebidas starters menu">
+        <!-- METAETIQUETA -->
+        <meta name="description" content="En BurgerHouse creemos que la base para preparar un buen plato se encuentra en la calidad de los ingredientes que lo componen. 
+        Por eso, mantenemos una relación estrecha con nuestros proveedores para asegurarnos de recibir los mejores productos frescos disponibles en el mercado. Con la ayuda de éstos, 
+        preparamos diariamente los platos que servimos.">
+    </head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="index.html" class="nav__a">
+                <img src="media/Logo.png" alt="nav__img" class="logo">
+            </a>
+            <input type="checkbox" id="btn-menu">    <!--  check   -->
+            <label for="btn-menu" class="lbl-menu">      <!--    checkbtn    -->
+                <span id="spn1"></span>
+                <span id="spn2"></span>
+                <span id="spn3"></span>
+            </label>
+            <ul class="ul">
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="locales.html">Locales</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="trabaja-con-nosotros.html">Trabaja con Nosotros</a></li>
+                <button><a href="form.html" target="_black"><i class="fas fa-user"></i></a></button>
+            </ul>
+        </nav>
+    </header> 
+
+    <main>
+        <div class="div__intro">
+            <img src="media/Menu/burgerserve.jpg" alt="HAMBURGUESA" class="div__intro__img">
+        </div>
+        <section>
+            <div class="text">
+                <h2 class="text__h2--active">Nuestro Menu</h2>
+                <p class="text__p--active">
+                    En BurgerHouse creemos que la base para preparar un buen plato se encuentra en la calidad de los ingredientes que lo componen. Por eso, mantenemos una relación estrecha con nuestros proveedores para asegurarnos de recibir los mejores productos frescos disponibles en el mercado. Con la ayuda de éstos, preparamos diariamente los platos que servimos. 
+                </p>
+            </div>
+            <div>
+                <div>
+                    <div class="middle">
+                        <h4 class="middle__title burger-bebida">BURGERS</h4>
+                    </div>
+                    <div class="box">    
+                        <div class="box__div">
+                            <img src="media/Menu/Burgers/Burger House Simple.jpg" alt=""  class="box__img box__img__one">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>BigHouse Simple</h2>
+                                    <p>
+                                        Medallon x1 Cheddar Fetas 
+                                        x2 Bacon Cebolla Crispy 
+                                        Aderezo Big Pons</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 999</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    Debe iniciar sesión para poder agregar productos a su pedido.
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                                <button type="button" class="btn btn-primary"><a href="form.html" class="modal-footer__a" target="_blank">Iniciar Sesion</a></button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/Menu/Burgers/Sweet Onion Simple.jpg" alt=""  class="box__img box__img__two">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Sweet Onion Simple</h2>
+                                    <p>
+                                        Medallon x1 Cheddar Fetas
+                                        x2 Bacon Cebolla Caramelizada</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 860</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/Menu/Burgers/Cheese Burger Triple.jpg" alt=""  class="box__img box__img__three">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Cheese Burger Triple</h2>
+                                    <p>
+                                        Medallon x3 150g cada uno + Cheddar Fetas x6 Salsa BBQ
+                                    </p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 980</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/Menu/Burgers/Grilled Onion.jpg" alt=""  class="box__img box__img__four">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Grilled Onion</h2>
+                                    <p>
+                                        Medallon x2 180g cada uno + Cheddar x4 + Cebolla Grilled</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 850</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/Menu/Burgers/Pesto Burger.jpg" alt=""  class="box__img box__img__five">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Pesto Burger</h2>
+                                    <p>
+                                        Medallon x 2 + Cheddar fetas x 4 + Tomate + Pesto + Alioli + Papas fritas</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 720</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/Menu/Burgers/Sweet Onion Doble.jpg" alt=""  class="box__img box__img__six">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Sweet Onion Doble</h2>
+                                    <p>
+                                        Medallon x2 Cheddar Fetas x4 Bacon Cebolla Caramelizada</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 980</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="middle">
+                        <h4 class="middle__title starter">STARTERS</h4>
+                    </div>
+                    <div class="box">    
+                        <div class="box__div">
+                            <img src="media/Menu/Starters/Papas Fritas Cheddar Bacon.jpg" alt=""  class="box__img box__img__one">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Papas Fritas Cheddar Bacon</h2>
+                                    <p>
+                                        Papas Fritas Cheddar Bacon</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 510</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/Menu/Starters/Aros de Cebolla + BBQ.jpg" alt=""  class="box__img box__img__one">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Aros de Cebolla + BBQ</h2>
+                                    <p>
+                                        300grs de Aros de Cebolla + BBQ Casera</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 470</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/Menu/Starters/Papas Fritas.jpg" alt=""  class="box__img box__img__one">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Papas Fritas</h2>
+                                    <p>
+                                        Papas Fritas</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 350</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/Menu/Starters/Papas Cheddar y Verdeo.jpg" alt=""  class="box__img box__img__one">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Papas Cheddar y Verdeo</h2>
+                                    <p>
+                                        Papas Fritas + Cheddar + Verdeo</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 450</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/Menu/Starters/Nuggets.jpg" alt=""  class="box__img box__img__one">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Nuggets + BBQ Casera</h2>
+                                    <p>
+                                        450 gramos de nuggets + BBQ Casers</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 220</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/menu/Starters/Papas Ciboulette.jpg" alt=""  class="box__img box__img__one">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Papas Ciboulette</h2>
+                                    <p>
+                                        Papas Ciboulette</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 220</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uno">
+                    <div class="middle">
+                        <h4 class="middle__title bebida burger-bebida">BEBIDAS</h4>
+                    </div>
+                    <div class="box">    
+                        <div class="box__div">
+                            <img src="media/Menu/Gaseosas/Seven Up Free 354ml.jpg" alt=""  class="box__img box__img__one">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Seven Up Free 354ml</h2>
+                                    <p>
+                                        Seven Up Free 354ml</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 165</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/Menu/Gaseosas/Pepsi Black 354ml.jpg" alt=""  class="box__img box__img__one">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Pepsi Black 354ml</h2>
+                                    <p>
+                                        Pepsi Black 354ml</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 165</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/Menu/Gaseosas/Pepsi Regular 354ml.jpg" alt=""  class="box__img box__img__one">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2 >Pepsi Regular 354ml</h2>
+                                    <p>
+                                        Pepsi Regular 354ml</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 165</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/Menu/Gaseosas/Cerveza Patagonia Sol Citra 473ml.jpg" alt=""  class="box__img box__img__one">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Cerveza Patagonia Sol Citra 473ml</h2>
+                                    <p>
+                                        Cerveza Patagonia Sol Citra 473ml</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 290</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/Menu/Gaseosas/Cerveza Patagonia Amber Lager 473ml.jpg" alt=""  class="box__img box__img__one">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Cerveza Patagonia Amber Lager 473ml</h2>
+                                    <p>
+                                        Cerveza Patagonia Amber Lager 473ml</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 290</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box__div">
+                            <img src="media/Menu/Gaseosas/Cerveza Patagonia Bohemian 473ml.jpg" alt=""  class="box__img box__img__one">
+                            <div class="box__div__mayor">
+                                <div class="box__div__text">
+                                    <h2>Cerveza Patagonia Bohemian 473ml</h2>
+                                    <p>
+                                        Cerveza Patagonia Bohemian 473ml</p>
+                                    <div class="box__div__btn">
+                                        <h3>$ 290</h3>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Agregar al Carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div id="container">
+            <div id="fields">
+                <div class="footer_list">
+                    <h4 class="footer_list_h4">Company</h4>
+                    <ul>
+                        <li><a href="index.html#historia">Nuestra Historia</a></li>
+                        <li><a href="index.html#novedades">Novedades</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="locales.html">Locales</a></li>
+                        <li><a href="take away.html">Take Away</a></li>
+                        <li><a href="trabaja...html">Trabaja con Nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="footer_list">
+                    <h4 class="footer_list_h4">Nuestro Menu</h4>
+                    <ul>
+                        <li><a href="menu.html#burgers">Burgers</a></li>
+                        <li><a href="menu.html#starters">Starters</a></li>
+                        <li><a href="menu.html#bebidas">Bebidas</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer_list">
+                    <h4 class="follow">follow us</h4>
+                    <div class="footer__list__div">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blak"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blak"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright ©2021 Burger House. designed by <span>Tomas Diaz Landaburu</span></p>
+        </div>
+   </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</body>
+
+</html>

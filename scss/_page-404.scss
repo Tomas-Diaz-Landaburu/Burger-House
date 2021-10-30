@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import "variables.scss";
+.body-page{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background-color:rgb(45, 45, 45);
+  background-size: 400%;
+}
+@keyframes animate {
+  0%{
+    background-position: 0 0;
+  }
+  25%{
+    background-position: 100% 0;
+  }
+  50%{
+    background-position: 100% 100%;
+  }
+  75%{
+    background-position: 0% 100%;
+  }
+  100%{
+    background-position: 0% 0%;
+  }
+}
+#error-page{
+  border-radius: 10px;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  right: 15%;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(45, 45, 45);
+  box-shadow: 0px 5px 10px rgb(45, 45, 45);
+  overflow: scroll;
+  .content{
+    max-width: 600px;
+    text-align: center;
+    h2{
+      font-size: 80px;
+      line-height: 1em;
+      position: relative;
+      margin-bottom: 15px;
+      &::after{
+        position: absolute;
+        content: attr(data-text);
+        top: 0;
+        left: 0;
+        right: 0;
+        background: -webkit-repeating-linear-gradient(-45deg, #ab7e16,$yellow, #e1b246,#ffe5a9);
+        background-size: 400%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 1px 1px 2px rgba(255,255,255,0.25);
+        animation: animate 10s ease-in-out infinite;
+      }
+    }
+    h4{
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      color: white;
+      font-size: 2em;
+      max-width: 600px;
+      position: relative;
+      &::after{
+        position: absolute;
+        content: attr(data-text);
+        top: 0;
+        left: 0;
+        right: 0;
+        text-shadow: 1px 1px 2px rgba(255,255,255,0.4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    img{
+      width: 48%;
+    }
+    p{
+      font-size: 1.2em;
+      color: white;
+    }
+
+    
+    a{
+      position: relative;
+      display: inline-block;
+      margin-top: 25px;
+      padding: 10px 30px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $yellow;
+      letter-spacing: 2px;
+      font-size: 28px;
+      transition: 0.5s;
+      &:hover{
+        color: $yellow;
+      }
+      span{
+        display: block;
+        position: absolute;
+        background-color: $yellow;
+      }
+    }
+  }
+}
+
+
+a span:nth-child(1){
+  left: 0;
+  bottom: 0;
+  width: 3px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+
+a:hover span:nth-child(1){
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+}
+
+a span:nth-child(2){
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+a:hover span:nth-child(2){
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+
+a span:nth-child(3){
+  right: 0;
+  bottom: 0;
+  width: 3px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+}
+
+a:hover span:nth-child(3){
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+}
+
+a span:nth-child(4){
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 3px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+}
+
+a:hover span:nth-child(4){
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+}
