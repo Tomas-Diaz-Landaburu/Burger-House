@@ -74,11 +74,11 @@ header {
 
 /*BTN*/
 .nav__a .logo {
-  width: 60%;
-  z-index: 3;
-  position: relative;
-  margin-top: -40px;
-  margin-left: -20px; }
+  position: absolute;
+  width: 320px;
+  top: -50px;
+  left: -40px;
+  z-index: 4; }
 
 .lbl-menu {
   width: 40px;
@@ -368,10 +368,6 @@ main .box {
   .container-nosotros .box-nosotros .div-img-nosotros .last {
     margin-bottom: 30px; }
 
-main .img-fondo {
-  width: 100%;
-  height: 500px; }
-
 main .text-locales {
   text-align: center; }
   main .text-locales h3 {
@@ -398,53 +394,63 @@ main .text-locales {
         color: #ffffff;
         background-color: black; }
 
-.locals-section .modal .modal-shape {
-  display: flex;
-  justify-content: center; }
-  .locals-section .modal .modal-shape .modal-content {
-    width: 200rem;
-    background-color: #eae5ce;
-    border: 1px solid black; }
-    .locals-section .modal .modal-shape .modal-content .modal-body {
-      display: flex;
-      justify-content: center;
-      flex-direction: column; }
-      .locals-section .modal .modal-shape .modal-content .modal-body .imagen .local {
-        width: 1200px;
-        margin: 0 20px; }
-      .locals-section .modal .modal-shape .modal-content .modal-body .title-locals {
+.locals-section .modal {
+  border: solid 5px red; }
+  .locals-section .modal .modal-shape {
+    border: solid 5px red;
+    display: flex;
+    justify-content: center; }
+    .locals-section .modal .modal-shape .modal-content {
+      width: 300%;
+      background-color: #eae5ce;
+      border: 5px solid black; }
+      .locals-section .modal .modal-shape .modal-content .modal-body {
+        border: solid 5px white;
         display: flex;
-        justify-content: center; }
-        .locals-section .modal .modal-shape .modal-content .modal-body .title-locals h2 {
-          text-align: center;
-          font-size: 40px;
-          color: #b1a87d;
-          font-family: 'Lora', serif;
-          font-weight: 400; }
-        .locals-section .modal .modal-shape .modal-content .modal-body .title-locals .title-locales-h2 {
-          width: 200rem; }
-      .locals-section .modal .modal-shape .modal-content .modal-body .text-locals {
-        display: flex;
-        justify-content: center; }
-        .locals-section .modal .modal-shape .modal-content .modal-body .text-locals p {
-          font-size: 22.5px;
-          text-align: center;
-          margin-bottom: 30px;
-          font-family: 'Scheherazade New', serif; }
-      .locals-section .modal .modal-shape .modal-content .modal-body .close {
-        display: flex;
-        justify-content: center; }
-        .locals-section .modal .modal-shape .modal-content .modal-body .close .misc {
-          width: 100px; }
+        justify-content: center;
+        flex-direction: column; }
+        .locals-section .modal .modal-shape .modal-content .modal-body .local {
+          border: solid 5px white;
+          width: 1200px;
+          margin: 0 20px; }
+        .locals-section .modal .modal-shape .modal-content .modal-body .title-locals {
+          display: flex;
+          justify-content: center; }
+          .locals-section .modal .modal-shape .modal-content .modal-body .title-locals h2 {
+            text-align: center;
+            font-size: 40px;
+            color: #b1a87d;
+            font-family: 'Lora', serif;
+            font-weight: 400; }
+          .locals-section .modal .modal-shape .modal-content .modal-body .title-locals .title-locales-h2 {
+            width: 200rem; }
+        .locals-section .modal .modal-shape .modal-content .modal-body .text-locals {
+          display: flex;
+          justify-content: center; }
+          .locals-section .modal .modal-shape .modal-content .modal-body .text-locals p {
+            font-size: 22.5px;
+            text-align: center;
+            font-family: 'Scheherazade New', serif; }
+        .locals-section .modal .modal-shape .modal-content .modal-body .close {
+          display: flex;
+          justify-content: center; }
+          .locals-section .modal .modal-shape .modal-content .modal-body .close .misc {
+            width: 100px; }
 
 .separador {
   display: inline;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  width: 100%; }
 
 .separador-div {
   display: flex;
   justify-content: center;
-  height: 55px; }
+  height: 55px;
+  width: 100%; }
+
+.open {
+  position: absolute;
+  margin-bottom: 40px; }
 
 .formBody {
   background-image: url(../media/redes/1832.jpg); }
@@ -743,51 +749,45 @@ ul {
   font-family: 'Roboto', sans-serif; }
 
 /*Media Querris*/
-@media only screen and (max-width: 1024px) {
-  nav ul li a {
-    font-size: 20px; }
-  nav ul button i {
+@media only screen and (max-width: 1114px) {
+  .li-a {
+    font-size: 22px; }
+  .icon {
     font-size: 20px;
     padding: 15px; }
   .nav__a .logo {
-    width: 10em;
-    margin-top: 30px; } }
+    position: absolute;
+    width: 280px;
+    top: -50px;
+    left: -40px;
+    z-index: 4; } }
 
-@media only screen and (max-width: 952px) {
-  .enlace {
-    padding-left: 20px; }
-  nav ul li a {
-    font-size: 16px; } }
-
-@media only screen and (max-width: 858px) {
+@media only screen and (max-width: 981px) {
   .lbl-menu {
     display: block;
     margin: 30px 0;
     margin-right: 60px; }
   #btn-menu:checked ~ ul {
     left: 0; }
-  .sizes, .div__intro__img {
-    margin-top: 90px; }
   header {
-    position: fixed;
-    background-color: #edb026;
     z-index: 3; }
     header nav {
       position: fixed;
+      background-color: #edb026;
       z-index: 4; }
       header nav .nav__a .logo {
-        width: 40%;
+        width: 250px;
         z-index: 4;
-        position: relative;
-        margin-top: -20px;
-        margin-left: -20px; }
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 20px; }
       header nav ul {
         width: 45%;
         display: flex;
         flex-direction: column;
         background-color: #edb026;
         left: -100%;
-        padding-top: 140px;
+        padding-top: 190px;
         transition: all .5s;
         z-index: 3;
         position: fixed; }
@@ -798,6 +798,9 @@ ul {
             font-size: 20px; }
       header nav .ul {
         height: 100vh; }
+      header nav .icon {
+        padding: 20px;
+        font-size: 25px; }
   .section__index__history {
     background-color: #211f20; }
     .section__index__history .section__index__grid {

@@ -92,11 +92,11 @@ header{
 
 .nav__a{
     .logo{
-        width: 60%;
-        z-index: 3;
-        position: relative;
-        margin-top: -40px;
-        margin-left: -20px;
+        position: absolute;
+        width: 320px;
+        top: -50px;
+        left: -40px;
+        z-index: 4;
     }
 }
 

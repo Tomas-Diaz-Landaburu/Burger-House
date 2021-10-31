@@ -34,38 +34,29 @@ ul{
 
 
 
-
-
-
 /*Media Querris*/
 
-@media only screen and (max-width: 1024px){
-    nav ul li a{
-        font-size: 20px;
+@media only screen and (max-width: 1114px){
+    .li-a{
+        font-size: 22px;
     }
-    nav ul button i{
+    .icon{
         font-size: 20px;
         padding: 15px;
     }
     .nav__a{
         .logo{
-            width: 10em;
-            margin-top: 30px;
+            position: absolute;
+            width: 280px;
+            top: -50px;
+            left: -40px;
+            z-index: 4;
         }
     }
     
 }
 
-@media only screen and (max-width: 952px){
-    .enlace{
-        padding-left: 20px;
-    }
-    nav ul li a{
-        font-size: 16px;
-    }
-}
-
-@media only screen and (max-width: 858px){
+@media only screen and (max-width: 981px){
 
     .lbl-menu{
         display: block;
@@ -75,23 +66,19 @@ ul{
     #btn-menu:checked ~ ul{
         left:0;
     }
-    .sizes, .div__intro__img{
-        margin-top: 90px;
-    }
     header{
-        position: fixed;
-        background-color: $yellow; 
         z-index: 3;
         nav{
             position: fixed;
+            background-color: $yellow; 
             z-index: 4;
             .nav__a{
                 .logo{
-                    width: 40%;
+                    width: 250px;
                     z-index: 4;
-                    position: relative;
-                    margin-top: -20px;
-                    margin-left: -20px;
+                    position: absolute;
+                    margin-top: 20px;
+                    margin-left: 20px;
                 }
             }
             ul{
@@ -100,7 +87,7 @@ ul{
                 flex-direction: column;
                 background-color: $yellow;
                 left: -100%;
-                padding-top: 140px;
+                padding-top: 190px;
                 transition: all .5s;
                 z-index:3;
                 position: fixed;
@@ -115,8 +102,13 @@ ul{
             .ul{
                 height: 100vh;
             }
+            .icon{
+                padding: 20px;
+                font-size: 25px;
+            }
         }
     }
+    
 
     .section__index__history{
         background-color: $blackbg-index;
@@ -149,3 +141,5 @@ ul{
         }
     }
 }
+
+
