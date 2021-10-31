@@ -306,7 +306,7 @@ main .middle .starter {
   color: white; }
 
 main .box {
-  margin: 15px;
+  margin: 15px 3%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; }
