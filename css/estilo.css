@@ -488,7 +488,6 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
 
 .div-intro-nosotros #fixing-burguer {
   width: 100%;
-  height: 500px;
 }
 
 .container-nosotros .box-nosotros {
@@ -1135,22 +1134,20 @@ ul {
   .li-a {
     font-size: 22px;
   }
-  i {
-    color: blue;
+  .icon {
     font-size: 20px;
+    padding: 15px;
+  }
+  .nav__a .logo {
+    position: absolute;
+    width: 280px;
+    top: -50px;
+    left: -40px;
+    z-index: 4;
   }
 }
 
-@media only screen and (max-width: 952px) {
-  .enlace {
-    padding-left: 20px;
-  }
-  nav ul li a {
-    font-size: 16px;
-  }
-}
-
-@media only screen and (max-width: 858px) {
+@media only screen and (max-width: 981px) {
   .lbl-menu {
     display: block;
     margin: 30px 0;
@@ -1168,11 +1165,11 @@ ul {
     z-index: 4;
   }
   header nav .nav__a .logo {
-    width: 40%;
+    width: 250px;
     z-index: 4;
     position: absolute;
-    margin-top: -20px;
-    margin-left: -20px;
+    margin-top: 20px;
+    margin-left: 20px;
   }
   header nav ul {
     width: 45%;
@@ -1185,7 +1182,7 @@ ul {
             flex-direction: column;
     background-color: #edb026;
     left: -100%;
-    padding-top: 140px;
+    padding-top: 190px;
     -webkit-transition: all .5s;
     transition: all .5s;
     z-index: 3;
@@ -1200,6 +1197,10 @@ ul {
   }
   header nav .ul {
     height: 100vh;
+  }
+  header nav .icon {
+    padding: 20px;
+    font-size: 25px;
   }
   .section__index__history {
     background-color: #211f20;
