@@ -21,11 +21,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
-
-        
-
-
-
         <!--KEYWORDS-->
         <meta name="keywords" content="hamburgueseria burguerhouse hamburguesas trabajo empleo">
         <!-- METAETIQUETAS-->
@@ -55,35 +50,50 @@
         </nav>
     </header>
     <main>
+        <div class="title">
+            <h1 class="title__h1">Trabaja con Nosostros</h1>
+        </div>
+
         <section>
-            <img src="media/Trabaja con Nosotros/local.png" alt="Nuestro local" class="img--intro">
-            <div class="box-text">
-                <div class="content-text">
-                    <h1>Sumate a nuestro equipo</h1>
-                    <p>No te queremos convencer, sino informar que trabajar para Burger House, es una muy buena oportunidad de ganar experiencia y aprender de nuestra cultura de trabajo.</p>
-                </div>
+            <div class="form_h">
+                <h2 class="text__h2">umate a nuestro equipo</h2>
+                <h4 class="text__h2">Conocé nuestra cultura de trabajo y postulate para trabajar con nosotros.</h4>
             </div>
-            <div class="content-trabaja">
-                <div class="box-trabaja sumate">
-                    <img src="media/Trabaja con Nosotros/Sumate a nustro equipo.jpg" alt="Sumate a nustro equipo">
-                    <div>
-                        <h3>Nuestra Cultura</h3>
-                        <p>Cultura de Servicio es lo que somos, lo que nos identifica. Es la forma a través de la cual compartimos el placer de lo que hacemos. Lo que nos permite mejorar siendo nosotros mismos. Buscar siempre la excelencia, superarnos y sobre todo, generar y vivir grandes experiencias. Todos hacemos nuestra Cultura y está en todo lo que hacemos.</p>
+            
+            <form action="">
+                <fieldset>
+                    <div class="form-register">
+                        <div>
+                            <input  type="text" name="nombre" id="nombres" class="controls" placeholder="Nombre" required>
+                        </div>  
+                        <div>
+                            <input type="text" name="apellidos" id="apellidos" class="controls" placeholder="Apellido" required>
+                        </div>
+                        <div>
+                            <input type="text" name="telefono" id="telefono" class="controls" placeholder="Telefono" required>
+                        </div>
+                        <div>
+                            <input type="text" name="email" id="correo" class="controls" placeholder="Correo" required>
+                        </div>
+                        <div>
+                            <input type="text" name="ciudad" id="ciudad" class="controls" placeholder="Ciudad" required>
+                        </div>
+                        <div>
+                            <input type="number" name="edad" id="edad" class="controls edad" placeholder="Edad" min="18" max="70" required>
+                        </div>
+                        <div>
+                            <textarea name="user_message" id="msg" class="controls" cols="30" rows="10" placeholder="Experiencia Laboral" required></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar" class="controls send">
+                        </div>
+                        <div class="div-file">
+                            <p id="text-file">ADJUNTAR CV</p>
+                            <input type="file" id="btn-submit">
+                        </div>
                     </div>
-                </div>
-                <div class="box-trabaja">
-                    <img src="media/Trabaja con Nosotros/Postularme.jpg" alt="Postularme">
-                    <div>
-                        <h3>Queremos conocerte</h3>
-                        <p>
-                            Si querés sumarte al equipo de nuestros locales y no tenés experiencia, no importa. Hacé click aquí para postularte.
-                        </p>
-                    </div>
-                    <div class="button">
-                        <button class="btn btn-warning"><a href="#">Postularme</a></button>
-                    </div>
-                </div>
-            </div>
+                </fieldset>
+            </form>
         </section>
     </main>
 
