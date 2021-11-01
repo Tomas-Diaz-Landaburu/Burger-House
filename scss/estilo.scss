@@ -82,7 +82,7 @@ ul{
                 }
             }
             ul{
-                width: 45%;
+                width: 60%;
                 display: flex;
                 flex-direction: column;
                 background-color: $yellow;
@@ -108,8 +108,6 @@ ul{
             }
         }
     }
-    
-
     .section__index__history{
         background-color: $blackbg-index;
         .section__index__grid{
@@ -121,9 +119,29 @@ ul{
             "image-history";
         }
     }
-    .image-history{
+
+    .section__index__history{
+        .section__index{
+            .texto-history{
+                width: 100%;
+            }
+        }
         img{
-            width: 100%;
+            display: none;
+        }
+    }
+
+    /*Trabaja con Nosotros*/
+    .content-trabaja{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .box-trabaja{
+            width: 80%;
+            margin-bottom: 25px;
+            .button{
+                margin-bottom: 20px;
+            }
         }
     }
 }
@@ -138,6 +156,11 @@ ul{
         width: 100%;
         h3{
             text-align: center;
+        }
+    }
+    .image-history{
+        img{
+            display: none;
         }
     }
 }

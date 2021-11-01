@@ -3,18 +3,14 @@
 }
 .section__index__history{
     background-color: $blackbg-index;
-    .section__index__grid{
-        display: grid;
-        grid-template-columns: 1fr 900px;
-        grid-template-rows: 1fr;
-        grid-template-areas: 
-        "texto-history image-history";
-        
+    .section__index{
+        display: flex;
         .texto-history{
-            grid-template-areas: texto-history;
+            width: 70%;
             display: flex;
+            align-items: center;
+            justify-content: center;
             flex-direction: column;
-            justify-self: center;
             & ::-webkit-scrollbar{
                 background-color: $blackbg-index;
                 width: 10px;
@@ -23,11 +19,10 @@
                 background-color:$yellow;
                 border-radius: 0;
             }
-        }
+        
             h2{
                 font-family: 'Dancing Script', cursive;
                 color: white;
-                text-align: center;
                 font-size: 50px;
                 padding-top: 28px;
                 padding-bottom: 30px;
@@ -37,14 +32,14 @@
                 font-weight: 700;
                 line-height: 30px;
                 color: $whitecl;
-                width: 655px;
-                height: 500px;
+                width: 70%;
+                height: 400px;
+                margin-bottom: 50px;
                 overflow-y: scroll;
-                padding: 10px 60px;
 
             }
+        }
         .image-history{
-            grid-template-areas: image-history;
             img{
                 width: 100%;
             }
