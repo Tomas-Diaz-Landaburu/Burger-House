@@ -484,6 +484,8 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
 .container-nosotros .box-nosotros .div-img-nosotros .img-nosotros {
   width: 100%;
   border-radius: 10px;
+  -webkit-box-shadow: 0 0 20px 0 rgba(41, 41, 41, 0.406);
+          box-shadow: 0 0 20px 0 rgba(41, 41, 41, 0.406);
 }
 
 .container-nosotros .box-nosotros .div-img-nosotros .last {
