@@ -33,22 +33,17 @@ main{
         }
     }
     .modal{
-        border: solid 5px red;
         .modal-shape{
-            border: solid 5px red;
             display: flex;
             justify-content: center;
             .modal-content{
                 width: 300%;
                 background-color: rgb(234, 229, 206);
-                border: 5px solid black;
                 .modal-body{
-                    border: solid 5px white;
                     display: flex;
                     justify-content: center;
                     flex-direction: column;
                     .local{
-                        border: solid 5px white;
                         width: 1200px;
                         margin: 0 20px;
                     }

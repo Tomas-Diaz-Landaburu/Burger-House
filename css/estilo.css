@@ -283,63 +283,59 @@ footer #container #fields .footer_list .footer__list__div a:hover {
   background-color: #211f20;
 }
 
-.section__index__history .section__index__grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 900px;
-      grid-template-columns: 1fr 900px;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas: "texto-history image-history";
-}
-
-.section__index__history .section__index__grid .texto-history {
-      grid-template-areas: texto-history;
+.section__index__history .section__index {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.section__index__history .section__index .texto-history {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  justify-self: center;
 }
 
-.section__index__history .section__index__grid .texto-history ::-webkit-scrollbar {
+.section__index__history .section__index .texto-history ::-webkit-scrollbar {
   background-color: #211f20;
   width: 10px;
 }
 
-.section__index__history .section__index__grid .texto-history ::-webkit-scrollbar-thumb {
+.section__index__history .section__index .texto-history ::-webkit-scrollbar-thumb {
   background-color: #edb026;
   border-radius: 0;
 }
 
-.section__index__history .section__index__grid h2 {
+.section__index__history .section__index .texto-history h2 {
   font-family: 'Dancing Script', cursive;
   color: white;
-  text-align: center;
   font-size: 50px;
   padding-top: 28px;
   padding-bottom: 30px;
 }
 
-.section__index__history .section__index__grid .text__p {
+.section__index__history .section__index .texto-history .text__p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   line-height: 30px;
   color: #ffffff;
-  width: 655px;
-  height: 500px;
+  width: 70%;
+  height: 400px;
+  margin-bottom: 50px;
   overflow-y: scroll;
-  padding: 10px 60px;
 }
 
-.section__index__history .section__index__grid .image-history {
-      grid-template-areas: image-history;
-}
-
-.section__index__history .section__index__grid .image-history img {
+.section__index__history .section__index .image-history img {
   width: 100%;
 }
 
@@ -536,12 +532,7 @@ main .text-locales h5 {
   background-color: black;
 }
 
-.locals-section .modal {
-  border: solid 5px red;
-}
-
 .locals-section .modal .modal-shape {
-  border: solid 5px red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -553,11 +544,9 @@ main .text-locales h5 {
 .locals-section .modal .modal-shape .modal-content {
   width: 300%;
   background-color: #eae5ce;
-  border: 5px solid black;
 }
 
 .locals-section .modal .modal-shape .modal-content .modal-body {
-  border: solid 5px white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -571,7 +560,6 @@ main .text-locales h5 {
 }
 
 .locals-section .modal .modal-shape .modal-content .modal-body .local {
-  border: solid 5px white;
   width: 1200px;
   margin: 0 20px;
 }
@@ -1157,7 +1145,7 @@ ul {
     margin-left: 20px;
   }
   header nav ul {
-    width: 45%;
+    width: 60%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1199,8 +1187,31 @@ ul {
         grid-template-rows: 1fr 1fr;
         grid-template-areas: "texto-history" "image-history";
   }
-  .image-history img {
+  .section__index__history .section__index .texto-history {
     width: 100%;
+  }
+  .section__index__history img {
+    display: none;
+  }
+  /*Trabaja con Nosotros*/
+  .content-trabaja {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content-trabaja .box-trabaja {
+    width: 80%;
+    margin-bottom: 25px;
+  }
+  .content-trabaja .box-trabaja .button {
+    margin-bottom: 20px;
   }
 }
 
@@ -1221,6 +1232,9 @@ ul {
   }
   .box__div__btn h3 {
     text-align: center;
+  }
+  .image-history img {
+    display: none;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
