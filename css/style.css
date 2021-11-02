@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 * {
   margin: 0;
@@ -37,7 +38,9 @@ header {
           font-size: 26px;
           padding: 7px 13px;
           text-decoration: none;
-          margin-right: 20px; }
+          margin-right: 20px;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 900; }
           header nav ul li a:hover {
             color: black;
             transition: .4s;
@@ -231,6 +234,7 @@ footer {
         width: 70%;
         height: 400px;
         margin-bottom: 50px;
+        padding-right: 20px;
         overflow-y: scroll; }
     .section__index__history .section__index .image-history img {
       width: 100%; }
@@ -411,61 +415,77 @@ main .text-locales {
   position: absolute;
   margin-bottom: 40px; }
 
-.formBody {
-  background-image: url(../media/redes/1832.jpg); }
-
-form .form-regist {
-  width: 400px;
-  background-color: #24303c;
-  padding: 30px;
-  margin: auto;
-  margin-bottom: 20px;
-  margin-top: 100px;
-  border-radius: 4px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #ffffff;
-  box-shadow: 7px 13px 37px black; }
-  form .form-regist h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-    text-align: center; }
-  form .form-regist .spaces {
+/*Crear Cuenta*/
+.create-acount {
+  font-family: 'Poppins',sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #211f1b; }
+  .create-acount .container {
+    max-width: 700px;
     width: 100%;
-    background-color: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: solid 1px #1f53c5;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: white; }
-  form .form-regist .botons {
-    width: 100%;
-    background-color: #1f53c5;
-    border: none;
-    color: #ffffff;
-    padding: 12px;
-    margin: 16px 0;
-    margin-bottom: 20px;
-    font-size: 16px; }
-    form .form-regist .botons .sent:hover {
-      background-color: #1b3f8d; }
-    form .form-regist .botons p {
-      height: 40px;
-      text-align: center;
-      font-size: 16px;
-      line-height: 40px; }
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); }
+    .create-acount .container .title {
+      margin-bottom: 15px;
+      font-size: 25px;
+      font-weight: 500;
+      position: relative; }
+      .create-acount .container .title::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 3px;
+        width: 80px;
+        border-radius: 5px;
+        background: #8b4bcb; }
+    .create-acount .container .content form .user-details {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      .create-acount .container .content form .user-details .input-box {
+        margin-bottom: 15px;
+        width: calc(100% / 2 - 20px); }
+        .create-acount .container .content form .user-details .input-box span.details {
+          display: block;
+          font-weight: 500;
+          margin-bottom: 5px; }
+        .create-acount .container .content form .user-details .input-box input {
+          height: 45px;
+          width: 100%;
+          outline: none;
+          font-size: 16px;
+          border-radius: 5px;
+          padding-left: 15px;
+          border: 1px solid #ccc;
+          border-bottom-width: 2px;
+          transition: all 0.3s ease; }
+    .create-acount .container .content form .button {
+      height: 45px;
+      margin: 35px 0; }
+      .create-acount .container .content form .button input {
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background-color: #edb026; }
+        .create-acount .container .content form .button input:hover {
+          background-color: #f0b937; }
 
-.terminos, .--active {
-  color: #ffffff;
-  color: #ffffff;
-  text-decoration: none; }
-  .terminos:hover, .--active:hover {
-    color: #ffffff;
-    text-decoration: underline; }
-
-.account {
-  text-align: center; }
+form input[type="radio"] {
+  display: none; }
 
 .img--intro {
   width: 100%; }
@@ -778,6 +798,20 @@ ul {
       margin-bottom: 25px; }
       .content-trabaja .box-trabaja .button {
         margin-bottom: 20px; } }
+
+@media (max-width: 584px) {
+  .container {
+    max-width: 400px; }
+  form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%; }
+  form .category {
+    width: 100%; }
+  .content form .user-details {
+    max-height: 300px;
+    overflow-y: scroll; }
+  .user-details::-webkit-scrollbar {
+    width: 5px; } }
 
 @media only screen and (max-width: 483px) {
   .box__div {

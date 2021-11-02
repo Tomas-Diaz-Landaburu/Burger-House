@@ -7,7 +7,7 @@
 @import "forms.scss";
 @import "variables.scss";
 @import "trabaja.scss";
-@import "page-404.scss";
+@import "404.scss";
 
 
 #fields{
@@ -145,7 +145,25 @@ ul{
         }
     }
 }
-
+@media(max-width: 584px){
+    .container{
+     max-width: 400px;
+   }
+   form .user-details .input-box{
+       margin-bottom: 15px;
+       width: 100%;
+     }
+     form .category{
+       width: 100%;
+     }
+     .content form .user-details{
+       max-height: 300px;
+       overflow-y: scroll;
+     }
+     .user-details::-webkit-scrollbar{
+       width: 5px;
+     }
+     }
 @media only screen and (max-width: 483px){
     .box__div{
         display: flex;

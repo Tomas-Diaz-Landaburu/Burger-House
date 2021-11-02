@@ -1,72 +1,88 @@
-
-.formBody{
-    background-image: url(../media/redes/1832.jpg);
-}
-form{
-        .form-regist{
-            width: 400px;
-            background-color: $bluebg-form;
-            padding: 30px;
-            margin: auto;
-            margin-bottom: 20px;
-            margin-top: 100px;
-            border-radius: 4px;
-            font-family: Arial, Helvetica, sans-serif;
-            color: $whitecl;
-            box-shadow: 7px 13px 37px $black;
-            h4{
-                font-size: 22px;
-                margin-bottom: 20px;
-                text-align: center;
+/*Crear Cuenta*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.create-acount{
+    font-family: 'Poppins',sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(33, 31, 27);
+    .container{
+        max-width: 700px;
+        width: 100%;
+        background-color: #fff;
+        padding: 25px 30px;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+        .title{
+          margin-bottom: 15px;
+            font-size: 25px;
+            font-weight: 500;
+            position: relative;
+            &::before{
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: 3px;
+                width: 80px;
+                border-radius: 5px;
+                background: rgb(139, 75, 203);
             }
-            .spaces{
-                width: 100%;
-                background-color: $bluebg-form;
-                padding: 10px;
-                border-radius: 4px;
-                margin-bottom: 16px;
-                border: solid 1px $blueborder-form;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 18px;
-                color: white;
-            }
-            .botons{
-                width: 100%;
-                background-color: $blueborder-form;
-                border: none;
-                color: $whitecl;
-                padding: 12px;
-                margin: 16px 0;
-                margin-bottom: 20px;
-                font-size: 16px;
-
-            .sent:hover{
-                background-color:$bluesent-form;
-            }
-            p{
-                height: 40px;
-                text-align: center;
-                font-size: 16px;
-                line-height: 40px;
+        }
+    .content{
+        form{
+            .user-details{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .input-box{
+                    margin-bottom: 15px;
+                    width: calc(100% / 2 - 20px);
+                    span.details{
+                        display: block;
+                        font-weight: 500;
+                        margin-bottom: 5px;
+                      }
+                      input{
+                        height: 45px;
+                        width: 100%;
+                        outline: none;
+                        font-size: 16px;
+                        border-radius: 5px;
+                        padding-left: 15px;
+                        border: 1px solid #ccc;
+                        border-bottom-width: 2px;
+                        transition: all 0.3s ease;
+                      }
+                    }
+                }
+                .button{
+                  height: 45px;
+                  margin: 35px 0;
+                  input{
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 5px;
+                    border: none;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 500;
+                    letter-spacing: 1px;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    background-color: #edb026;
+                    &:hover{
+                      background-color: #f0b937;
+                    }
+                  }
+                }
             }
         }
     }
 }
 
-.terminos{
-    color: $whitecl;
-    color: $whitecl;
-    text-decoration: none;
-    &:hover{
-        color: $whitecl;
-        text-decoration: underline;
-    }
-}
-
-.--active{
-    @extend .terminos;
-}
-
-.account{
-    text-align: center;
-}
+form input[type="radio"]{
+  display: none;
+ }
