@@ -39,6 +39,7 @@ header nav .lbl-menu #spn3 {
 }
 
 header nav ul {
+  max-width: 100%;
   height: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1230,14 +1231,15 @@ ul {
     z-index: 4;
   }
   header nav .nav__a .logo {
-    width: 250px;
+    width: 180px;
     z-index: 4;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
   }
   header nav ul {
-    width: 60%;
+    max-width: 100%;
+    width: 40%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1312,6 +1314,16 @@ ul {
   }
   .user-details::-webkit-scrollbar {
     width: 5px;
+  }
+  nav {
+    position: fixed;
+  }
+  nav .ul {
+    position: fixed;
+    width: 100%;
+  }
+  .lbl-menu {
+    z-index: 4;
   }
 }
 
