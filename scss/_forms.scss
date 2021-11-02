@@ -32,7 +32,7 @@
   height: 3px;
   width: 80px;
   border-radius: 5px;
-  background: rgb(139, 75, 203);
+  background: $yellow;
 }
 .content form .user-details{
   display: flex;
@@ -128,10 +128,22 @@ form .input-box span.details{
         color: black;
         text-transform: uppercase;
         &:hover{
-          color: rgb(139, 75, 203);
+          color: black;
           text-decoration: underline;
         }
       }
     }
   }
 }
+
+
+
+.form{
+  .user-details{
+    display: flex;
+    flex-direction: column;
+    .input-box{
+      width: 100%;
+    }
+  }
+} 

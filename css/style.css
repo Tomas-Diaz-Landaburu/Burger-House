@@ -448,7 +448,7 @@ main .text-locales {
   height: 3px;
   width: 80px;
   border-radius: 5px;
-  background: #8b4bcb; }
+  background: #edb026; }
 
 .content form .user-details {
   display: flex;
@@ -541,8 +541,14 @@ form .button input:hover {
     color: black;
     text-transform: uppercase; }
     .terminos label p a:hover {
-      color: #8b4bcb;
+      color: black;
       text-decoration: underline; }
+
+.form .user-details {
+  display: flex;
+  flex-direction: column; }
+  .form .user-details .input-box {
+    width: 100%; }
 
 .img--intro {
   width: 100%; }

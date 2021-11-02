@@ -684,7 +684,7 @@ main .text-locales h5 {
   height: 3px;
   width: 80px;
   border-radius: 5px;
-  background: #8b4bcb;
+  background: #edb026;
 }
 
 .content form .user-details {
@@ -812,8 +812,22 @@ form .button input:hover {
 }
 
 .terminos label p a:hover {
-  color: #8b4bcb;
+  color: black;
   text-decoration: underline;
+}
+
+.form .user-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form .user-details .input-box {
+  width: 100%;
 }
 
 .img--intro {
