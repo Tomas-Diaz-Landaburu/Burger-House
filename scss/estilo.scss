@@ -108,17 +108,6 @@ ul{
             }
         }
     }
-    .section__index__history{
-        background-color: $blackbg-index;
-        .section__index__grid{
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr;
-            grid-template-areas: 
-            "texto-history"
-            "image-history";
-        }
-    }
 
     .section__index__history{
         .section__index{
@@ -163,7 +152,7 @@ ul{
      .user-details::-webkit-scrollbar{
        width: 5px;
      }
-     }
+}
 @media only screen and (max-width: 483px){
     .box__div{
         display: flex;
