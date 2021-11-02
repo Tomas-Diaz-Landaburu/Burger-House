@@ -515,7 +515,7 @@ form input[type="radio"] {
 
 form .button {
   height: 45px;
-  margin: 35px 0; }
+  margin: 10px; }
 
 form .button input {
   height: 100%;
@@ -533,6 +533,16 @@ form .button input {
 form .button input:hover {
   /* transform: scale(0.99); */
   background-color: #F0B937; }
+
+.terminos label p {
+  font-size: 16px;
+  text-align: center; }
+  .terminos label p a {
+    color: black;
+    text-transform: uppercase; }
+    .terminos label p a:hover {
+      color: #8b4bcb;
+      text-decoration: underline; }
 
 .img--intro {
   width: 100%; }
@@ -806,7 +816,7 @@ ul {
         margin-left: 20px; }
       header nav ul {
         max-width: 100%;
-        width: 40%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         background-color: #edb026;
