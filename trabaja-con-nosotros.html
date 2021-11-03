@@ -20,11 +20,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-
-        
-
-
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <!--KEYWORDS-->
         <meta name="keywords" content="hamburgueseria burguerhouse hamburguesas trabajo empleo">
         <!-- METAETIQUETAS-->
@@ -49,7 +45,7 @@
                 <li><a href="locales.html" class="li-a">Locales</a></li>
                 <li><a href="nosotros.html" class="li-a">Nosotros</a></li>
                 <li><a href="trabaja-con-nosotros.html" class="li-a">Trabaja con Nosotros</a></li>
-                <button><a href="crear-cuenta.html"><i class="fas fa-user icon"></i></a></button>
+                <button><a href="registrarme/crear-cuenta.html"><i class="fas fa-user icon"></i></a></button>
             </ul>
         </nav>
     </header>
@@ -79,7 +75,56 @@
                         </p>
                     </div>
                     <div class="button">
-                        <button class="btn btn-warning"><a href="#">Postularme</a></button>
+                        <label for="btn-trabaja" class="lbl-trabaja">
+                            <h4>Postularme</h4>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <input type="checkbox" id="btn-trabaja">    <!--  check   -->
+            
+        <section class="apply animate__animated animate__backInRight animate__slow">
+            <div class="flex">
+                <div class="global">
+                    <div class="title">Postularme</div>
+                        <div class="content-trabaja">
+                            <form action="#">
+                                <div class="user-details">
+                                    <div class="input-box">
+                                        <span class="details">Nombre</span>
+                                        <input type="text" required>
+                                    </div>
+                                    <div class="input-box">
+                                        <span class="details">Apellido</span>
+                                        <input type="text" required>
+                                    </div>
+                                    <div class="input-box">
+                                        <span class="details">Mail</span>
+                                        <input type="text" required>
+                                    </div>
+                                    <div class="input-box">
+                                        <span class="details">Número de Teléfono</span>
+                                        <input type="text" required>
+                                    </div>
+                                </div>
+                                <div class="experience">
+                                    <div class="input-box">
+                                        <span class="details">Experiencia Previa</span>
+                                        <textarea name="user_message" id="msg" class="controls" cols="80" rows="5" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="extra">
+                                    <label for="terminos"><p>Estoy de acuerdo con <a href="terminos-y-condiciones.html">Terminos y Condiciones</a></p></label>
+                                </div>
+                                <div class="button">
+                                    <input type="submit" value="Postularme">
+                                </div class="cuenta">
+                                <div class="extra">
+                                    <label for="cuenta"><p><a href="iniciar-sesion.html">Ya tengo cuenta</a></p></label>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

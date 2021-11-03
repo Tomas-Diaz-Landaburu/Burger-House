@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!--Favicon-->
-    <link rel="icon" href="media/Logo.png" type="image/ico">
+    <link rel="icon" href="../media/Logo.png" type="image/ico">
     <title>Crear Cuenta | Burger House</title>
     <!-- Social Media -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -30,7 +30,7 @@
   <header>
     <nav class="nav">
         <a href="index.html" class="nav__a">
-            <img src="media/Logo.png" alt="Logo Burger House" class="logo">
+            <img src="../media/Logo.png" alt="Logo Burger House" class="logo">
         </a>
         <input type="checkbox" id="btn-menu">    <!--  check   -->
         <label for="btn-menu" class="lbl-menu">      <!--    checkbtn    -->
@@ -39,54 +39,35 @@
             <span id="spn3"></span>
         </label>
         <ul class="ul">
-            <li><a href="menu.html" class="li-a">Menu</a></li>
-            <li><a href="locales.html" class="li-a">Locales</a></li>
-            <li><a href="nosotros.html" class="li-a">Nosotros</a></li>
-            <li><a href="trabaja-con-nosotros.html" class="li-a">Trabaja con Nosotros</a></li>
+            <li><a href="../menu.html" class="li-a">Menu</a></li>
+            <li><a href="../locales.html" class="li-a">Locales</a></li>
+            <li><a href="../nosotros.html" class="li-a">Nosotros</a></li>
+            <li><a href="../trabaja-con-nosotros.html" class="li-a">Trabaja con Nosotros</a></li>
             <button><a href="crear-cuenta.html" target="_black"><i class="fas fa-user icon"></i></a></button>
         </ul>
     </nav>
   </header>
   <main class="create-acount">
     <div class="container">
-      <div class="title">Registro</div>
+      <div class="title">Iniciar Sesion</div>
       <div class="content">
-        <form action="#">
+        <form action="#" class="form">
           <div class="user-details">
             <div class="input-box">
-              <span class="details">Nombre Completo</span>
-              <input type="text" placeholder="ej: Tomas" required>
-            </div>
-            <div class="input-box">
-              <span class="details">Nombre de Usuario</span>
-              <input type="text" placeholder="ej: Diaz" required>
-            </div>
-            <div class="input-box">
               <span class="details">Mail</span>
-              <input type="text" placeholder="ej: tomasdiazlandaburu@gmail.com" required>
-            </div>
-            <div class="input-box">
-              <span class="details">Número de Teléfono</span>
-              <input type="text" placeholder="ej: +54 9 11 6610 0336" required>
+              <input type="text" placeholder="Correo Electrónico" required>
             </div>
             <div class="input-box">
               <span class="details">Contraseña</span>
               <input type="text" placeholder="Contraseña" required>
-            </div>
-            <div class="input-box">
-              <span class="details">Confirmar Contraseña</span>
-              <input type="text" placeholder="Confirmar Contraseña" required>
             </div>
           </div>
           <div class="terminos">
             <label for="terminos"><p>Estoy de acuerdo con <a href="terminos-y-condiciones.html">Terminos y Condiciones</a></p></label>
           </div>
           <div class="button">
-            <input type="submit" value="Register">
+            <input type="submit" value="Iniciar Sesion">
           </div class="cuenta">
-          <div class="terminos">
-            <label for="cuenta"><p><a href="iniciar-sesion.html">Ya tengo cuenta</a></p></label>
-          </div>
         </form>
       </div>
     </div>
