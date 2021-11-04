@@ -654,9 +654,10 @@ form .input-box span.details {
   width: 100%;
   outline: none;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 0%;
   padding-left: 15px;
-  border: 1px solid #ccc;
+  border: none;
+  border-bottom: solid 1px black;
   border-bottom-width: 2px;
   transition: all 0.3s ease; }
 
@@ -697,9 +698,10 @@ form .category label .dot {
 form input[type="radio"] {
   display: none; }
 
-form .button {
+.flex form .button {
   height: 45px;
-  margin: 10px; }
+  margin: 10px;
+  margin-top: -10px; }
 
 form .button input {
   height: 100%;
@@ -718,11 +720,14 @@ form .button input:hover {
   /* transform: scale(0.99); */
   background-color: #F0B937; }
 
-.extra {
+.termins {
   display: flex;
   justify-content: center; }
-  .extra label p a {
-    color: black; }
+  .termins label p a {
+    color: black;
+    text-decoration: none; }
+    .termins label p a:hover {
+      text-decoration: underline; }
 
 #btn-trabaja {
   display: none; }
@@ -754,7 +759,38 @@ form .button input:hover {
   align-items: center; }
 
 .experience .input-box textarea {
-  border-bottom-width: 2px; }
+  opacity: 80%;
+  border-bottom-width: 2px;
+  width: 100%;
+  max-height: 200px;
+  min-height: 80px;
+  border-radius: 2px; }
+
+#div_file {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  border-radius: 2px;
+  background-color: black;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  transition: all .3s ease; }
+  #div_file:hover {
+    background-color: #3f3f3f; }
+  #div_file #texto {
+    text-align: center;
+    color: white;
+    font-size: 18px; }
+  #div_file #btn_enviar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
 
 .body-page {
   margin: 0;
