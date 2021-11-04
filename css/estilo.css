@@ -305,7 +305,8 @@ footer #container #fields .footer_list .footer__list__div a:hover {
 }
 
 .section__index__history .section__index .texto-history h2 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
   color: white;
   font-size: 50px;
   padding-top: 28px;
@@ -332,14 +333,20 @@ main .div__intro .div__intro__img {
   width: 100%;
 }
 
-main .text .text__h2--active {
-  font-size: 3rem;
+main .text .text-h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
   text-align: center;
   margin-top: 20px;
 }
 
-main .text .text__p--active {
+main .text .text-p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
   margin: 0 20px;
+  text-align: center;
+  width: 70%;
+  margin: 0 15%;
 }
 
 main .middle .middle__title {
@@ -354,12 +361,17 @@ main .middle .middle__title {
 }
 
 main .middle .burger-bebida {
-  background-color: #edb026;
+  background-color: #211f1b;
   color: white;
 }
 
 main .middle .starter {
   background-color: #211f1b;
+  color: white;
+}
+
+main .middle .hot-dog {
+  background-color: #edb026;
   color: white;
 }
 
@@ -442,6 +454,10 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
 
 .div-intro-nosotros #fixing-burguer {
   width: 100%;
+}
+
+.main-nosotros {
+  font-family: 'Poppins', sans-serif;
 }
 
 .container-nosotros .box-nosotros {
@@ -833,12 +849,14 @@ form .button input:hover {
 }
 
 .box-text .content-text h1 {
+  font-size: 40px;
   margin-top: 30px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
 
 .box-text .content-text p {
+  font-size: 16px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }

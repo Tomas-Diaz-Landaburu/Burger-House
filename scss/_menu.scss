@@ -6,13 +6,19 @@ main{
         }
     }
     .text{
-        .text__h2--active{
-            font-size: 3rem;
+        .text-h2{
+            font-family: 'Poppins', sans-serif; 
+            font-size: 50px;
             text-align: center;
             margin-top: 20px;
         }
-        .text__p--active{
+        .text-p{
+            font-family: 'Poppins', sans-serif; 
+            font-size: 16px;
             margin: 0 20px;
+            text-align: center;
+            width: 70%;
+            margin: 0 15%;
         }
     }
     .middle{
@@ -27,11 +33,15 @@ main{
             font-family: 'Eczar', serif;
         }
         .burger-bebida{
-            background-color: #edb026;
+            background-color: rgb(33, 31, 27);
             color: white;
         }
         .starter{
             background-color: rgb(33, 31, 27);
+            color: white;
+        }
+        .hot-dog{
+            background-color: $yellow;
             color: white;
         }
     }
