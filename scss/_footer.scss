@@ -1,115 +1,78 @@
 @import "variables.scss";
-footer{
+.footer{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
-	background-color: $blackbg-index;
-    padding: 4.37em 0;
-	#container{
-		#fields{
-			.footer_list{
-				width: 25%;
-				padding: 0 0.93em;
-				.footer_list_h4{
-					@extend .follow;
-					padding-left: 20px;
-					&::before{
-						content: '';
-						position: absolute;
-						left:20px;
-						bottom: -0.62em;
-						height: 0.12em;
-						box-sizing: border-box;
-						width: 3.12em;
-						margin-left: 20px;
-					}
-				}
-				ul{
-					li{
-						margin-bottom: 0.62em;
-						a{
-							@if $blackbg-index == rgb( 33, 31, 32) {
-								color: $greycl;
-								font-weight: 300;
-								} @else if $blackbg-index == $whitecl {
-									color: $black;
-							   		} @else {
-										color: $redbg;
-									}
-							font-size: 18px;
-							text-transform: capitalize;
-							text-decoration: none;
-							display: block;
-							transition: all 0.5s ease;
-							&:hover{
-								color:whitecl;
-								padding-left: 1em;
-								font-weight: 900;
-							}
-						}
-					}
-				}
-				.follow{
-					font-size: 19px;
-					@if $blackbg-index == rgb( 33, 31, 32) {
-						color: $whitecl;
-						} @else if $blackbg-index == $whitecl {
-							color: $black;
-							   } @else {
-								color: $redbg;
-							}
-					text-transform: capitalize;
-					margin-bottom: 1.18em;
-					font-weight: 500;
-					position: relative;
-					&::before{
-						content: '';
-						position: absolute;
-						left:0;
-						bottom: -0.62em;
-						background-color: $redbg;
-						height: 0.12em;
-						box-sizing: border-box;
-						width: 3.12em;
-					}
-				}
-				.footer__list__div{
-					a{
-						display: inline-block;
-						height: 2.5m;
-						width: 2.5em;
-						background-color: $iconsbg;
-						margin:0 0.62em 0.62em 0;
-						text-align: center;
-						line-height: 2.5em;
-						border-radius: 50%;
-						@if $blackbg-index == rgb( 33, 31, 32) {
-							color: $whitecl;
-							} @else if $blackbg-index == $whitecl {
-								color: $black;
-								   } @else {
-									color: $redbg;
-								}
-						transition: all 0.5s ease;
-						&:hover{
-							color: $black;
-							background-color: $whitecl;
-							@if $blackbg-index == rgb( 33, 31, 32) {
-								color: $black;
-								background-color: $whitecl;
-								} @else if $blackbg-index == $whitecl {
-									color: $whitecl;
-									background-color: $black;
-									   } @else {
-										color: $redbg;
-									}
-						}
-					}
-				}
-			}
-		}
-	}
+	background-color: #24262b;
+    padding: 70px 0;
 }
-
+.container-footer{
+	max-width: 1170px;
+	margin:auto;
+}
+.row-footer{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   height:400px;
+}
+.footer-col h4{
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #edb026;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 18px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+	margin-left: -30px;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
 .footer-bottom{
     background: #000;
     width: 100%;
@@ -117,19 +80,25 @@ footer{
     padding: 20px 0;
     text-align: center;
 	margin-bottom: -100px;
-	p{ 
-		font-family: 'Poppins', sans-serif;
-		font-weight: 500;
-		margin-top: auto;
-		margin-bottom: auto;
-		color: white;
-		font-size: 14px;
-		word-spacing: 2px;
-		text-transform: capitalize;
-		span{
-			text-transform: uppercase;
-			opacity: .4;
-			font-weight: 200;
-		}
-	}
 }
+.text-footer-bottom{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+/*responsive*/
+
+
+
+
+

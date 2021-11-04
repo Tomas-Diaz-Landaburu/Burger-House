@@ -57,6 +57,13 @@ ul{
 }
 
 @media only screen and (max-width: 981px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+        }
+        .contact-div{
+            margin-top: 40px;
+        }
 
     .lbl-menu{
         display: block;
@@ -162,6 +169,26 @@ ul{
     }
     .lbl-menu{
         z-index: 4;
+    }
+    .footer-col{
+        width: 100%;
+    }
+    .text-footer-bottom{
+        font-size: 12px;
+    }
+    .footer-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        margin-bottom: 80px;
+    }
+    .footer-col ul li a{
+        text-align: center;
+    }
+    .footer-col ul li a:hover{
+        margin-left: 0;
+
     }
 }
 @media only screen and (max-width: 483px){
