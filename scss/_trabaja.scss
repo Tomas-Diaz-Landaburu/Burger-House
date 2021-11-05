@@ -229,7 +229,18 @@ form .input-box span.details{
     display: none;
 }
 
-
+.div-btn-cultura{
+  display: flex;
+  justify-content: center;
+  button{
+    margin-bottom: 20px;
+    a{
+      color: black;
+      text-decoration: none;
+      font-size: 20px;
+    }
+  }
+}
 .lbl-trabaja{
     display: block;
     position: relative;

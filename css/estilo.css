@@ -10,12 +10,16 @@
 }
 
 header {
+  position: fixed;
+  z-index: 5;
   height: 90px;
   width: 100%;
   background-color: #edb026;
 }
 
 header nav {
+  position: fixed;
+  z-index: 5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,7 +104,7 @@ header nav button a i:hover {
 /*BTN*/
 .nav__a .logo {
   position: absolute;
-  width: 320px;
+  width: 300px;
   top: -50px;
   left: -40px;
   z-index: 4;
@@ -258,15 +262,11 @@ ul {
   text-transform: capitalize;
 }
 
-span {
-  text-transform: uppercase;
-  opacity: .4;
-  font-weight: 200;
-}
-
 /*responsive*/
 .sizes {
   width: 100%;
+  z-index: 1;
+  margin-top: 90px;
 }
 
 .section__index__history {
@@ -329,6 +329,48 @@ span {
 
 .section__index__history .section__index .image-history img {
   width: 100%;
+}
+
+.img-prueba {
+  width: 100%;
+}
+
+.map {
+  width: 98%;
+  height: 400px;
+  margin: 15px 1%;
+  -webkit-box-shadow: 0 0 5px black;
+          box-shadow: 0 0 5px black;
+}
+
+.text-index-iframe {
+  font-family: 'Poppins', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text-index-iframe p {
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+}
+
+.text-index-iframe h2 {
+  font-weight: 400;
+  margin: 20px 0;
+  font-size: 50px;
+  text-align: center;
 }
 
 main .div__intro .div__intro__img {
@@ -1116,6 +1158,25 @@ form .button input:hover {
   display: none;
 }
 
+.div-btn-cultura {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.div-btn-cultura button {
+  margin-bottom: 20px;
+}
+
+.div-btn-cultura button a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 .lbl-trabaja {
   display: block;
   position: relative;
@@ -1517,9 +1578,17 @@ ul {
     display: block;
     margin: 30px 0;
     margin-right: 60px;
+    z-index: 4;
   }
   #btn-menu:checked ~ ul {
     left: 0;
+  }
+  nav {
+    position: fixed;
+  }
+  nav .ul {
+    position: fixed;
+    width: 100%;
   }
   header {
     z-index: 3;
@@ -1538,7 +1607,7 @@ ul {
   }
   header nav ul {
     max-width: 100%;
-    width: 50%;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

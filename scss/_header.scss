@@ -7,10 +7,14 @@
     list-style: none;
 }
 header{
+    position: fixed;
+    z-index: 5;
     height: 90px;
     width: 100%;
     background-color: $yellow;
     nav{
+        position: fixed;
+        z-index: 5;
         display: flex;
         justify-content: space-between;
         height: 80px;
@@ -82,7 +86,7 @@ header{
 .nav__a{
     .logo{
         position: absolute;
-        width: 320px;
+        width: 300px;
         top: -50px;
         left: -40px;
         z-index: 4;
