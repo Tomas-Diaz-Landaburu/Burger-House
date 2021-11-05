@@ -44,8 +44,7 @@ header {
           padding: 7px 13px;
           text-decoration: none;
           margin-right: 20px;
-          font-family: 'Roboto', sans-serif;
-          font-weight: 900; }
+          font-family: 'Poppins', sans-serif; }
           header nav ul li a:hover {
             color: black;
             transition: .4s;
@@ -204,6 +203,9 @@ ul {
   z-index: 1;
   margin-top: 90px; }
 
+.body-index {
+  background-color: #211f20; }
+
 .section__index__history {
   background-color: #211f20; }
   .section__index__history .section__index {
@@ -254,12 +256,15 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  background-color: #211f20; }
   .text-index-iframe p {
+    color: white;
     font-size: 20px;
     text-align: center;
     width: 90%; }
   .text-index-iframe h2 {
+    color: white;
     font-weight: 400;
     margin: 20px 0;
     font-size: 50px;
@@ -376,83 +381,65 @@ main .box {
   .container-nosotros .box-nosotros .div-img-nosotros .last {
     margin-bottom: 30px; }
 
-main .text-locales {
-  text-align: center; }
-  main .text-locales h3 {
-    font-size: 50px;
-    font-family: 'Dancing Script', cursive;
-    margin-bottom: 20px;
-    font-weight: 700; }
-  main .text-locales h5 {
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    font-size: 35px;
-    margin-bottom: 50px; }
+.content-locals .button-name {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  transition: .3s;
+  color: black;
+  font-size: 30px;
+  font-weight: 500; }
 
-.locals-section .container-locals {
+.content-locals .button-name:hover {
+  background-color: #edb026;
+  color: white; }
+
+.width {
+  width: 90%;
+  max-width: 100%;
+  margin: 15px auto; }
+
+.modal-content {
+  background-color: #eae5ce; }
+
+.modal-header {
   display: flex;
   justify-content: center; }
-  .locals-section .container-locals .div-btn {
-    width: 100%; }
-    .locals-section .container-locals .div-btn .btn {
-      font-size: 28px;
-      width: 100%;
-      height: 100px; }
-      .locals-section .container-locals .div-btn .btn:hover {
-        color: #ffffff;
-        background-color: black; }
 
-.locals-section .modal .modal-shape {
+.modal-body p {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Scheherazade New', serif; }
+
+.modal-body h3 {
+  text-align: center;
+  font-size: 3em;
+  color: #b1a87d;
+  font-family: 'Lora', serif;
+  font-weight: 400; }
+
+.pilar {
+  width: 80%;
+  margin: 0 10%; }
+
+.modal-body iframe {
+  width: 100%;
+  height: 400px; }
+
+.nordelta {
+  max-width: 100%;
+  width: 100%;
+  height: 400px; }
+
+.close {
   display: flex;
   justify-content: center; }
-  .locals-section .modal .modal-shape .modal-content {
-    width: 300%;
-    background-color: #eae5ce; }
-    .locals-section .modal .modal-shape .modal-content .modal-body {
-      display: flex;
-      justify-content: center;
-      flex-direction: column; }
-      .locals-section .modal .modal-shape .modal-content .modal-body .local {
-        width: 1200px;
-        margin: 0 20px; }
-      .locals-section .modal .modal-shape .modal-content .modal-body .title-locals {
-        display: flex;
-        justify-content: center; }
-        .locals-section .modal .modal-shape .modal-content .modal-body .title-locals h2 {
-          text-align: center;
-          font-size: 40px;
-          color: #b1a87d;
-          font-family: 'Lora', serif;
-          font-weight: 400; }
-        .locals-section .modal .modal-shape .modal-content .modal-body .title-locals .title-locales-h2 {
-          width: 200rem; }
-      .locals-section .modal .modal-shape .modal-content .modal-body .text-locals {
-        display: flex;
-        justify-content: center; }
-        .locals-section .modal .modal-shape .modal-content .modal-body .text-locals p {
-          font-size: 22.5px;
-          text-align: center;
-          font-family: 'Scheherazade New', serif; }
-      .locals-section .modal .modal-shape .modal-content .modal-body .close {
-        display: flex;
-        justify-content: center; }
-        .locals-section .modal .modal-shape .modal-content .modal-body .close .misc {
-          width: 100px; }
+
+.close .misc {
+  width: 100px; }
 
 .separador {
-  display: inline;
-  margin-bottom: 40px;
   width: 100%; }
-
-.separador-div {
-  display: flex;
-  justify-content: center;
-  height: 55px;
-  width: 100%; }
-
-.open {
-  position: absolute;
-  margin-bottom: 40px; }
 
 /*Crear Cuenta*/
 .create-acount {

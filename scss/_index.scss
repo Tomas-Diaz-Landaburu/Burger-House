@@ -3,6 +3,9 @@
     z-index: 1;
     margin-top: 90px;
 }
+.body-index{
+    background-color: $blackbg-index;
+}
 .section__index__history{
     background-color: $blackbg-index;
     .section__index{
@@ -66,12 +69,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: $blackbg-index;
     p{
+        color: white;
         font-size: 20px;
         text-align: center;
         width: 90%;
+        
     }
     h2{
+        color: white;
         font-weight: 400;
         margin: 20px 0;
         font-size: 50px;

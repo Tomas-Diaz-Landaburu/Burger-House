@@ -1,108 +1,64 @@
-main{
-    .text-locales{
-        text-align: center;
-        h3{
-            font-size: 50px;
-            font-family: 'Dancing Script', cursive;
-            margin-bottom: 20px;
-            font-weight: 700;
-        }
-        h5{
-            font-family: 'Dancing Script', cursive;
-            font-weight: 700;
-            font-size: 35px;
-            margin-bottom: 50px;
-        }
-    }
-}
-.locals-section{
-    .container-locals{
-        display: flex;
-        justify-content: center;
-        .div-btn{
-            width: 100%;
-            .btn{
-                font-size: 28px;
-                width: 100%;
-                height: 100px;
-                &:hover{
-                    color: $whitecl;
-                    background-color: black;
-                }
-            }
-        }
-    }
-    .modal{
-        .modal-shape{
-            display: flex;
-            justify-content: center;
-            .modal-content{
-                width: 300%;
-                background-color: rgb(234, 229, 206);
-                .modal-body{
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                    .local{
-                        width: 1200px;
-                        margin: 0 20px;
-                    }
-                    .title-locals{
-                        display: flex;
-                        justify-content: center;
-                        h2{
-                            text-align: center;
-                            font-size: 40px;
-                            color: rgb(177, 168, 125);
-                            font-family: 'Lora', serif;
-                            font-weight: 400;
-                        }
-                        .title-locales-h2{
-                            width: 200rem;
-                        }
-
-                    }
-                    .text-locals{
-                        display: flex;
-                        justify-content: center;
-                        p{
-                            font-size: 22.5px;
-                            text-align: center;
-                            font-family: 'Scheherazade New', serif;
-                        }
-                    }
-                    .close{
-                        display: flex;
-                        justify-content: center;
-                        .misc{
-                            width: 100px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-.separador{
-    display: inline;
-    margin-bottom: 40px;
+.content-locals .button-name{
     width: 100%;
+    background-color: transparent;
+    border: none;
+    transition: .3s ;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
 }
-
-.separador-div{
+.content-locals .button-name:hover{
+    background-color: #edb026;
+    color: white;
+}
+.width{
+    width: 90%;
+    max-width: 100%;
+    margin: 15px auto;
+}
+.modal-content{
+    background-color: rgb(234, 229, 206);
+}
+.modal-header{
     display: flex;
     justify-content: center;
-    height: 55px;
+}
+.modal-body p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Scheherazade New', serif;
+}
+.modal-body h3{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(177, 168, 125);
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+.pilar{
+    width: 80%;
+    margin: 0 10%;
+}
+
+.modal-body iframe{
+    width: 100%;
+    height: 400px;
+}
+.nordelta{
+    max-width: 100%;
+    width: 100%;
+    height: 400px;
+}
+.close{
+    display: flex;
+    justify-content: center;
+}
+.close .misc{
+    width: 100px;
+}
+.separador{
     width: 100%;
 }
-
-.open{
-    position: absolute;
-    margin-bottom: 40px;
-}
-
-
 
 
 

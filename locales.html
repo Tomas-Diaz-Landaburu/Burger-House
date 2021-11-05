@@ -73,180 +73,131 @@
                     <h3>Nuestos Locales</h3>
                     <h5>Seleccioná el local para ver su ubicación y datos de contacto.</h5>
                 </div>
-                    <div class="container-locals">
-                        <div class="div-btn">
-                            <button type="button" class="btn active" data-bs-toggle="modal" data-bs-target="#san-isidro">
-                                SAN ISIDRO
-                            </button>
-                        </div>
-                        <div class="modal fade" id="san-isidro" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                            <div class="modal-dialog modal-shape">
+                <div class="content-locals">
+                    <button class="button-name btn" data-bs-target="#pilar-modal" data-bs-toggle="modal">PILAR</button>
+                    <div class="modal fade" id="pilar-modal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered width">
                             <div class="modal-content">
-                                <div  class="modal-body">
-                                    <img src="media/Locales/Local-San Isidro.jpg" alt="Local de San Isidro" class="local">
-                                    <div class="title-locals">
-                                        <h2>BURGER HOUSE SAN ISIDRO</h2>
-                                    </div>
-                                    <div class="text-locals">
-                                        <p>AV. DEL LIBERTADOR 15089, SAN ISIDRO <br>
-                                            TEL: 4747-0606
-                                        </p>
-                                    </div>
-                                    <div class="close">
-                                        <img src="media/Locales/misc_back.png" alt="" class="misc">
-                                    </div>
-                                </div>
-                                
-                                <div class="modal-footer">
-                                <button class="btn btn-warning open" data-bs-target="#san-isidro-2" data-bs-toggle="modal">Abrir Mapa</button>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="san-isidro-2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                            <div class="modal-dialog modal-dialog-centered modal-shape">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalToggleLabel2">MAPA</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
+                                <img src="media/Locales/Local-Pilar.jpg" alt="Local de Pilar" class="pilar">
                                 <div class="modal-body">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.07752427887!2d-58.501812884177994!3d-34.47555755823632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1b7225c5fe9%3A0x119e8fba768b5073!2sAv.%20del%20Libertador%2015089%2C%20B1641%20Acassuso%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1634696091960!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                    <h3>BURGER HOUSE PILAR</h3>
+                                    <p class="modal-title" id="exampleModalToggleLabel">RUTA PANAMERICANA KM 43,5 <br> TEL: (02320) 400-900</p>
+                                </div>
+                                <div class="close">
+                                    <img src="misc_back.png" alt="" class="misc">
                                 </div>
                                 <div class="modal-footer">
-                                <button class="btn btn-warning" data-bs-target="#san-isidro" data-bs-toggle="modal">Volver</button>
+                                    <button class="btn btn-warning" data-bs-target="#pilar-modal-map" data-bs-toggle="modal">Ver mapa</button>
                                 </div>
-                            </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="container-locals">
-                        <div class="div-btn">
-                            <button type="button" class="btn active" data-bs-toggle="modal" data-bs-target="#palermo">
-                                PALERMO
-                            </button>
-                        </div>
-                        <div class="modal fade" id="palermo" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                            <div class="modal-dialog modal-shape">
-                            <div class="modal-content">
-                                <div  class="modal-body">
-                                    <div class="imagen">
-                                        <img src="media/Locales/Local-Palermo.jpg" alt="Local de Palermo" class="local">
+                      </div>
+                        <div class="modal fade" id="pilar-modal-map" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered width">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="title-locals">
-                                        <h2>BURGER HOUSE PALERMO</h2>
-                                    </div>
-                                    <div class="text-locals">
-                                        <p>AV. DEL LIBERTADOR 4625 <br>
-                                            TEL: 4776-4100
-                                        </p>
-                                    </div>
-                                    <div class="close">
-                                        <img src="media/Locales/misc_back.png" alt="" class="misc">
-                                    </div>
-                                </div>
-                                
-                                <div class="modal-footer">
-                                <button class="btn btn-warning open" data-bs-target="#palermo-2" data-bs-toggle="modal">Abrir Mapa</button>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="palermo-2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                            <div class="modal-dialog modal-dialog-centered modal-shape">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalToggleLabel2">MAPA</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.5275779208846!2d-58.43459248417598!3d-34.56551496298589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5bbbafa8489%3A0x5c29f6a81c24b035!2sAv.%20del%20Libertador%204625%2C%20C1426%20CABA!5e0!3m2!1ses!2sar!4v1634696431431!5m2!1ses!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                                </div>
-                                <div class="modal-footer">
-                                <button class="btn btn-warning" data-bs-target="#palermo" data-bs-toggle="modal">Volver</button>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="container-locals">
-                        <div class="div-btn">
-                            <button type="button" class="btn active" data-bs-toggle="modal" data-bs-target="#pilar">
-                                PILAR
-                            </button>
-                        </div>
-                        <div class="modal fade" id="pilar" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                            <div class="modal-dialog modal-shape">
-                            <div class="modal-content">
-                                <div  class="modal-body">
-                                    <div class="imagen">
-                                        <img src="media/Locales/Local-Pilar.jpg" alt="Local de Palermo" class="local">
-                                    </div>
-                                    <div class="title-locals">
-                                        <h2>BURGER HOUSE PILAR</h2>
-                                    </div>
-                                    <div class="text-locals">
-                                        <p>RUTA PANAMERICANA KM 43,5 <br>
-                                            TEL: (02320) 400-900
-                                        </p>
-                                    </div>
-                                    <div class="close">
-                                        <img src="media/Locales/misc_back.png" alt="" class="misc">
-                                    </div>
-                                </div>
-                                
-                                <div class="modal-footer">
-                                <button class="btn btn-warning open" data-bs-target="#pilar-2" data-bs-toggle="modal">Abrir Mapa</button>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="modal fade" id="pilar-2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                            <div class="modal-dialog modal-dialog-centered modal-shape">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalToggleLabel2">MAPA</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.663595220802!2d-58.80157016302337!3d-34.43750977079762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9ec20908ba39%3A0xf456f5d8fe9eb65f!2sKansas!5e1!3m2!1ses-419!2sar!4v1634696183177!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                                </div>
-                                <div class="modal-footer">
-                                <button class="btn btn-warning" data-bs-target="#pilar" data-bs-toggle="modal">Volver</button>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Button trigger modal -->
-                    <div class="container-locals">
-                        <div class="div-btn">
-                            <button type="button" class="btn active" data-bs-toggle="modal" data-bs-target="#nordelta">
-                                NORDELTA
-                            </button>
-                        </div>
-                        
-                        <!-- Modal -->
-                        <div class="modal fade" id="nordelta" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered modal-shape">
-                                <div class="modal-content x">
                                     <div class="modal-body">
-                                        <div class="title-locals">
-                                            <h2 class="title-locales-h2">BURGER HOUSE NORDELTA</h2>
-                                        </div>
-                                        <div class="text-locals">
-                                            <p>PRÓXIMAMENTE
-                                            </p>
-                                        </div>
-                                        <div class="close">
-                                            <img src="media/Locales/misc_back.png" alt="" class="misc">
-                                        </div>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2715.6247302392353!2d-58.384262192905084!3d-34.6043752015967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1636132595816!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-warning" data-bs-target="#pilar-modal" data-bs-toggle="modal">Volver</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="content-locals">
+                    <button class="button-name btn" data-bs-target="#palermo-modal" data-bs-toggle="modal">PALERMO</button>
+                    <div class="modal fade" id="palermo-modal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered width">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="media/Locales/Local-Palermo.jpg" alt="" class="pilar">
+                                    <h3>BURGER HOUSE PILAR</h3>
+                                    <p class="modal-title" id="exampleModalToggleLabel">RUTA PANAMERICANA KM 43,5 <br> TEL: (02320) 400-900</p>
+                                </div>
+                                <div class="close">
+                                    <img src="misc_back.png" alt="" class="misc">
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-warning" data-bs-target="#palermo-modal-map" data-bs-toggle="modal">Ver mapa</button>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                        <div class="modal fade" id="palermo-modal-map" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered width">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2715.6247302392353!2d-58.384262192905084!3d-34.6043752015967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1636132595816!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-warning" data-bs-target="#palermo-modal" data-bs-toggle="modal">Volver</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-locals">
+                    <button class="button-name btn" data-bs-target="#san-isidro-modal" data-bs-toggle="modal">SAN ISIDRO</button>
+                    <div class="modal fade" id="san-isidro-modal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered width">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="media/Locales/Local-San Isidro.jpg" alt="" class="pilar">
+                                    <h3>BURGER HOUSE PILAR</h3>
+                                    <p class="modal-title" id="exampleModalToggleLabel">RUTA PANAMERICANA KM 43,5 <br> TEL: (02320) 400-900</p>
+                                </div>
+                                <div class="close">
+                                    <img src="misc_back.png" alt="" class="misc">
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-warning" data-bs-target="#san-isidro-modal-map" data-bs-toggle="modal">Ver mapa</button>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                        <div class="modal fade" id="san-isidro-modal-map" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered width">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2715.6247302392353!2d-58.384262192905084!3d-34.6043752015967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1636132595816!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-warning" data-bs-target="#san-isidro-modal" data-bs-toggle="modal">Volver</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-locals">
+                    <button class="button-name btn" data-bs-target="#nordelta-modal" data-bs-toggle="modal">NORDELTA</button>
+                    <div class="modal fade" id="nordelta-modal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered nordelta">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <h3>BURGER HOUSE PILAR</h3>
+                                    <p class="modal-title" id="exampleModalToggleLabe">PRÓXIMAMENTE</p>
+                                </div>
+                                <div class="close">
+                                    <img src="misc_back.png" alt="" class="misc">
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
                 <div class="separador-div">
                     <img src="media/Locales/separador.png" alt="separador" class="separador">
                 </div>

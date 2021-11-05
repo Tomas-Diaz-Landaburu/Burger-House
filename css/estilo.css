@@ -67,8 +67,7 @@ header nav ul li a {
   padding: 7px 13px;
   text-decoration: none;
   margin-right: 20px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
 }
 
 header nav ul li a:hover {
@@ -269,6 +268,10 @@ ul {
   margin-top: 90px;
 }
 
+.body-index {
+  background-color: #211f20;
+}
+
 .section__index__history {
   background-color: #211f20;
 }
@@ -358,15 +361,18 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #211f20;
 }
 
 .text-index-iframe p {
+  color: white;
   font-size: 20px;
   text-align: center;
   width: 90%;
 }
 
 .text-index-iframe h2 {
+  color: white;
   font-weight: 400;
   margin: 20px 0;
   font-size: 50px;
@@ -541,81 +547,33 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
   margin-bottom: 30px;
 }
 
-main .text-locales {
-  text-align: center;
-}
-
-main .text-locales h3 {
-  font-size: 50px;
-  font-family: 'Dancing Script', cursive;
-  margin-bottom: 20px;
-  font-weight: 700;
-}
-
-main .text-locales h5 {
-  font-family: 'Dancing Script', cursive;
-  font-weight: 700;
-  font-size: 35px;
-  margin-bottom: 50px;
-}
-
-.locals-section .container-locals {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.locals-section .container-locals .div-btn {
+.content-locals .button-name {
   width: 100%;
+  background-color: transparent;
+  border: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
 }
 
-.locals-section .container-locals .div-btn .btn {
-  font-size: 28px;
-  width: 100%;
-  height: 100px;
+.content-locals .button-name:hover {
+  background-color: #edb026;
+  color: white;
 }
 
-.locals-section .container-locals .div-btn .btn:hover {
-  color: #ffffff;
-  background-color: black;
+.width {
+  width: 90%;
+  max-width: 100%;
+  margin: 15px auto;
 }
 
-.locals-section .modal .modal-shape {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.locals-section .modal .modal-shape .modal-content {
-  width: 300%;
+.modal-content {
   background-color: #eae5ce;
 }
 
-.locals-section .modal .modal-shape .modal-content .modal-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.locals-section .modal .modal-shape .modal-content .modal-body .local {
-  width: 1200px;
-  margin: 0 20px;
-}
-
-.locals-section .modal .modal-shape .modal-content .modal-body .title-locals {
+.modal-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -624,19 +582,37 @@ main .text-locales h5 {
           justify-content: center;
 }
 
-.locals-section .modal .modal-shape .modal-content .modal-body .title-locals h2 {
+.modal-body p {
+  font-size: 20px;
   text-align: center;
-  font-size: 40px;
+  font-family: 'Scheherazade New', serif;
+}
+
+.modal-body h3 {
+  text-align: center;
+  font-size: 3em;
   color: #b1a87d;
   font-family: 'Lora', serif;
   font-weight: 400;
 }
 
-.locals-section .modal .modal-shape .modal-content .modal-body .title-locals .title-locales-h2 {
-  width: 200rem;
+.pilar {
+  width: 80%;
+  margin: 0 10%;
 }
 
-.locals-section .modal .modal-shape .modal-content .modal-body .text-locals {
+.modal-body iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.nordelta {
+  max-width: 100%;
+  width: 100%;
+  height: 400px;
+}
+
+.close {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -645,45 +621,12 @@ main .text-locales h5 {
           justify-content: center;
 }
 
-.locals-section .modal .modal-shape .modal-content .modal-body .text-locals p {
-  font-size: 22.5px;
-  text-align: center;
-  font-family: 'Scheherazade New', serif;
-}
-
-.locals-section .modal .modal-shape .modal-content .modal-body .close {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.locals-section .modal .modal-shape .modal-content .modal-body .close .misc {
+.close .misc {
   width: 100px;
 }
 
 .separador {
-  display: inline;
-  margin-bottom: 40px;
   width: 100%;
-}
-
-.separador-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 55px;
-  width: 100%;
-}
-
-.open {
-  position: absolute;
-  margin-bottom: 40px;
 }
 
 /*Crear Cuenta*/
