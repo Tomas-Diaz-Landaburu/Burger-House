@@ -249,7 +249,7 @@ ul {
   width: 98%;
   height: 400px;
   margin: 15px 1%;
-  box-shadow: 0 0 5px black; }
+  box-shadow: 0 0 5px white; }
 
 .text-index-iframe {
   font-family: 'Poppins', sans-serif;
@@ -388,16 +388,17 @@ main .box {
   transition: .3s;
   color: black;
   font-size: 30px;
-  font-weight: 500; }
-
-.content-locals .button-name:hover {
-  background-color: #edb026;
-  color: white; }
+  font-weight: 400;
+  padding: 10px;
+  margin-bottom: 15px; }
+  .content-locals .button-name:hover {
+    background-color: #edb026;
+    color: white; }
 
 .width {
-  width: 90%;
+  width: 80%;
   max-width: 100%;
-  margin: 15px auto; }
+  margin: auto; }
 
 .modal-content {
   background-color: #eae5ce; }
@@ -420,7 +421,7 @@ main .box {
 
 .pilar {
   width: 80%;
-  margin: 0 10%; }
+  margin: 20px 10%; }
 
 .modal-body iframe {
   width: 100%;
@@ -429,7 +430,8 @@ main .box {
 .nordelta {
   max-width: 100%;
   width: 100%;
-  height: 400px; }
+  height: 400px;
+  margin: none; }
 
 .close {
   display: flex;
@@ -437,6 +439,9 @@ main .box {
 
 .close .misc {
   width: 100px; }
+
+.misc--active {
+  margin-bottom: 15px; }
 
 .separador {
   width: 100%; }

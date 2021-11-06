@@ -342,8 +342,8 @@ ul {
   width: 98%;
   height: 400px;
   margin: 15px 1%;
-  -webkit-box-shadow: 0 0 5px black;
-          box-shadow: 0 0 5px black;
+  -webkit-box-shadow: 0 0 5px white;
+          box-shadow: 0 0 5px white;
 }
 
 .text-index-iframe {
@@ -555,7 +555,9 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
   transition: .3s;
   color: black;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 400;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 .content-locals .button-name:hover {
@@ -564,9 +566,9 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
 }
 
 .width {
-  width: 90%;
+  width: 80%;
   max-width: 100%;
-  margin: 15px auto;
+  margin: auto;
 }
 
 .modal-content {
@@ -598,7 +600,7 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
 
 .pilar {
   width: 80%;
-  margin: 0 10%;
+  margin: 20px 10%;
 }
 
 .modal-body iframe {
@@ -610,6 +612,7 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
   max-width: 100%;
   width: 100%;
   height: 400px;
+  margin: none;
 }
 
 .close {
@@ -623,6 +626,10 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
 
 .close .misc {
   width: 100px;
+}
+
+.misc--active {
+  margin-bottom: 15px;
 }
 
 .separador {

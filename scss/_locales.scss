@@ -1,20 +1,25 @@
-.content-locals .button-name{
-    width: 100%;
-    background-color: transparent;
-    border: none;
-    transition: .3s ;
-    color: black;
-    font-size: 30px;
-    font-weight: 500;
+.content-locals{
+    .button-name{
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        transition: .3s ;
+        color: black;
+        font-size: 30px;
+        font-weight: 400;
+        padding:10px;
+        margin-bottom: 15px;
+        &:hover{
+            background-color: #edb026;
+            color: white;
+        }
+    }
 }
-.content-locals .button-name:hover{
-    background-color: #edb026;
-    color: white;
-}
+
 .width{
-    width: 90%;
+    width: 80%;
     max-width: 100%;
-    margin: 15px auto;
+    margin:auto;
 }
 .modal-content{
     background-color: rgb(234, 229, 206);
@@ -37,7 +42,7 @@
 }
 .pilar{
     width: 80%;
-    margin: 0 10%;
+    margin: 20px 10%;
 }
 
 .modal-body iframe{
@@ -48,6 +53,7 @@
     max-width: 100%;
     width: 100%;
     height: 400px;
+    margin: none;
 }
 .close{
     display: flex;
@@ -55,6 +61,9 @@
 }
 .close .misc{
     width: 100px;
+}
+.misc--active{
+    margin-bottom: 15px;
 }
 .separador{
     width: 100%;
