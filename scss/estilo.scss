@@ -204,8 +204,26 @@ ul{
     }
     .footer-col ul li a:hover{
         margin-left: 0;
-
     }
+    .section__index__history{
+        .section__index{
+            .texto-history{ 
+                h2{
+                font-size: 9vw;
+                }
+                .text__p{
+                    font-family: 'Open Sans', sans-serif;
+                    line-height: 30px;
+                    color: $whitecl;
+                    width: 90%;
+                    height: 400px;
+                    margin-bottom: 50px;
+                    overflow-y: scroll;
+                }
+            }
+        }    
+    }
+
 }
 @media only screen and (max-width: 483px){
     .box__div{

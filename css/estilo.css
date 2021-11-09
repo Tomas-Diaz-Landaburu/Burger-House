@@ -320,7 +320,6 @@ ul {
 
 .section__index__history .section__index .texto-history .text__p {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
   line-height: 30px;
   color: #ffffff;
   width: 70%;
@@ -504,6 +503,7 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
 
 .div-intro-nosotros #fixing-burguer {
   width: 100%;
+  margin-top: 90px;
 }
 
 .main-nosotros {
@@ -1700,6 +1700,18 @@ ul {
   }
   .footer-col ul li a:hover {
     margin-left: 0;
+  }
+  .section__index__history .section__index .texto-history h2 {
+    font-size: 9vw;
+  }
+  .section__index__history .section__index .texto-history .text__p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    color: #ffffff;
+    width: 90%;
+    height: 400px;
+    margin-bottom: 50px;
+    overflow-y: scroll;
   }
 }
 
