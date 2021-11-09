@@ -1290,7 +1290,6 @@ form .button input:hover {
 
 #error-page {
   border-radius: 10px;
-  position: absolute;
   top: 10%;
   left: 15%;
   right: 15%;
@@ -1304,9 +1303,7 @@ form .button input:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #2d2d2d;
-  -webkit-box-shadow: 0px 5px 10px #2d2d2d;
-          box-shadow: 0px 5px 10px #2d2d2d;
+  height: 100vh;
 }
 
 #error-page .content {
