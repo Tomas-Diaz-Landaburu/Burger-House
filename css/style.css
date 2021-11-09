@@ -906,8 +906,7 @@ form .button input:hover {
   align-items: center;
   justify-content: center;
   background: #2d2d2d;
-  box-shadow: 0px 5px 10px #2d2d2d;
-  overflow: scroll; }
+  box-shadow: 0px 5px 10px #2d2d2d; }
   #error-page .content {
     max-width: 600px;
     text-align: center; }
