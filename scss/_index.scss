@@ -17,8 +17,8 @@
             justify-content: center;
             flex-direction: column;
             & ::-webkit-scrollbar{
-                background-color: $blackbg-index;
-                width: 10px;
+                background-color: white;
+                width: 5px;
             }
             & ::-webkit-scrollbar-thumb{
                 background-color:$yellow;

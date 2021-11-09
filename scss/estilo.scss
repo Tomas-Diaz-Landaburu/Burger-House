@@ -103,7 +103,7 @@ ul{
                 flex-direction: column;
                 background-color: $yellow;
                 left: -100%;
-                padding-top: 190px;
+                padding-top: 90px;
                 transition: all .5s;
                 z-index:3;
                 position: fixed;
@@ -147,6 +147,14 @@ ul{
             .button{
                 margin-bottom: 20px;
             }
+        }
+    }
+    .modal-body{
+        h3{
+            font-size: 6vw;
+        }
+        p{
+            font-size: 2.5vw;
         }
     }
 }
@@ -215,6 +223,9 @@ ul{
         img{
             display: none;
         }
+    }
+    .text-footer-bottom{
+        font-size: 2.5vw;
     }
 }
 

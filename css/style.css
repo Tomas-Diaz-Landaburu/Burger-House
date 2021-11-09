@@ -217,8 +217,8 @@ ul {
       justify-content: center;
       flex-direction: column; }
       .section__index__history .section__index .texto-history ::-webkit-scrollbar {
-        background-color: #211f20;
-        width: 10px; }
+        background-color: white;
+        width: 5px; }
       .section__index__history .section__index .texto-history ::-webkit-scrollbar-thumb {
         background-color: #edb026;
         border-radius: 0; }
@@ -394,6 +394,32 @@ main .box {
   .content-locals .button-name:hover {
     background-color: #edb026;
     color: white; }
+
+.img-locales {
+  width: 100%;
+  margin-top: 90px; }
+
+.text-locales h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px; }
+
+.text-locales p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin: 0 20px;
+  text-align: center;
+  width: 70%;
+  margin: 0 15%; }
+
+.text-locales h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  padding: 30px 0px;
+  margin: 0 20px;
+  text-align: center; }
 
 .width {
   width: 80%;
@@ -1071,7 +1097,7 @@ ul {
         flex-direction: column;
         background-color: #edb026;
         left: -100%;
-        padding-top: 190px;
+        padding-top: 90px;
         transition: all .5s;
         z-index: 3;
         position: fixed; }
@@ -1098,7 +1124,11 @@ ul {
       width: 80%;
       margin-bottom: 25px; }
       .content-trabaja .box-trabaja .button {
-        margin-bottom: 20px; } }
+        margin-bottom: 20px; }
+  .modal-body h3 {
+    font-size: 6vw; }
+  .modal-body p {
+    font-size: 2.5vw; } }
 
 @media (max-width: 584px) {
   .container {
@@ -1145,4 +1175,6 @@ ul {
     .box__div__btn h3 {
       text-align: center; }
   .image-history img {
-    display: none; } }
+    display: none; }
+  .text-footer-bottom {
+    font-size: 2.5vw; } }
