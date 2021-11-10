@@ -270,7 +270,8 @@ ul {
     text-align: center; }
 
 main .div__intro .div__intro__img {
-  width: 100%; }
+  width: 100%;
+  margin-top: 90px; }
 
 main .text .text-h2 {
   font-family: 'Poppins', sans-serif;
@@ -464,13 +465,16 @@ main .box {
   justify-content: center; }
 
 .close .misc {
-  width: 100px; }
+  width: 8%; }
 
 .misc--active {
   margin-bottom: 15px; }
 
 .separador {
   width: 100%; }
+
+.modal-footer {
+  border: none; }
 
 /*Crear Cuenta*/
 .create-acount {
@@ -483,6 +487,7 @@ main .box {
   background-color: #211f1b; }
 
 .container {
+  margin-top: 180px;
   max-width: 700px;
   width: 100%;
   background-color: #fff;
@@ -607,7 +612,8 @@ form .button input:hover {
     width: 100%; }
 
 .img--intro {
-  width: 100%; }
+  width: 100%;
+  margin-top: 90px; }
 
 .box-text {
   display: flex;
@@ -1161,16 +1167,18 @@ ul {
     text-align: center; }
   .footer-col ul li a:hover {
     margin-left: 0; }
-  .section__index__history .section__index .texto-history h2 {
-    font-size: 9vw; }
-  .section__index__history .section__index .texto-history .text__p {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 30px;
-    color: #ffffff;
-    width: 90%;
-    height: 400px;
-    margin-bottom: 50px;
-    overflow-y: scroll; } }
+  .section__index__history .section__index .texto-history {
+    height: auto; }
+    .section__index__history .section__index .texto-history h2 {
+      font-size: 9vw; }
+    .section__index__history .section__index .texto-history .text__p {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 30px;
+      color: #ffffff;
+      width: 90%;
+      height: 400px;
+      margin-bottom: 50px;
+      overflow-y: scroll; } }
 
 @media only screen and (max-width: 483px) {
   .box__div {

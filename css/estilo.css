@@ -380,6 +380,7 @@ ul {
 
 main .div__intro .div__intro__img {
   width: 100%;
+  margin-top: 90px;
 }
 
 main .text .text-h2 {
@@ -655,7 +656,7 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
 }
 
 .close .misc {
-  width: 100px;
+  width: 8%;
 }
 
 .misc--active {
@@ -664,6 +665,10 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
 
 .separador {
   width: 100%;
+}
+
+.modal-footer {
+  border: none;
 }
 
 /*Crear Cuenta*/
@@ -684,6 +689,7 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
 }
 
 .container {
+  margin-top: 180px;
   max-width: 700px;
   width: 100%;
   background-color: #fff;
@@ -856,6 +862,7 @@ form .button input:hover {
 
 .img--intro {
   width: 100%;
+  margin-top: 90px;
 }
 
 .box-text {
@@ -1700,6 +1707,9 @@ ul {
   }
   .footer-col ul li a:hover {
     margin-left: 0;
+  }
+  .section__index__history .section__index .texto-history {
+    height: auto;
   }
   .section__index__history .section__index .texto-history h2 {
     font-size: 9vw;
