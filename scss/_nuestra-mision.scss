@@ -36,9 +36,9 @@
 }
 
 .conteiner-mision{
+    border: solid red 2px;
     width: 60%;
-    margin-left: 20px;
-    min-width: 400px;
+    min-width: 350px;
     font-family: 'Poppins', sans-serif;
     .content-mision{
         margin-bottom: 40px;
@@ -65,8 +65,8 @@
             font-size: 14px;
         }
         img{
-            width: 50%;
-            margin: 20px 25%;
+            width: 70%;
+            margin: 20px 15%;
             border-radius: 10px;
         }
     }
