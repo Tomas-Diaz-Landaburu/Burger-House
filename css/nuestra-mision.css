@@ -1,0 +1,37 @@
+.mision {
+  margin-top: -90px;
+}
+
+.box-url {
+  background-color: #yellow;
+}
+
+.conteiner-mision {
+  font-family: 'Poppins', sans-serif;
+}
+
+.conteiner-mision .content-mision {
+  margin-bottom: 30px;
+}
+
+.conteiner-mision .content-mision h1 {
+  margin-top: 90px;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.conteiner-mision .content-mision h3 {
+  font-weight: 450;
+  font-size: 20px;
+}
+
+.conteiner-mision .content-mision h5 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.conteiner-mision .content-mision h4 {
+  font-weight: 350;
+  font-size: 25px;
+}
+/*# sourceMappingURL=nuestra-mision.css.map */

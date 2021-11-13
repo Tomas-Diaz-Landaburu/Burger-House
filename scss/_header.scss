@@ -39,7 +39,7 @@ header{
                 font-size: 1.25em;
                 margin: 30px 10px 30px;
                 display: inline-block;
-                a{
+                a, .active{
                     color: black;
                     border-bottom: 3px solid transparent;
                     margin-right: 5px;
@@ -55,6 +55,10 @@ header{
                         border-bottom: 2px solid white;
                         padding-bottom: 5px;
                     }
+                }
+                .active{
+                    border-bottom: 2px solid white;
+                    padding-bottom: 5px;
                 }
             }
         }
@@ -76,6 +80,10 @@ header{
                     transition: all .3s ease;
                     }
                 }
+            }
+            .i-active{
+                color: white;
+                border: white 2px solid;
             }
         }
     }

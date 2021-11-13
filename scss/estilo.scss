@@ -8,6 +8,7 @@
 @import "variables.scss";
 @import "trabaja.scss";
 @import "404.scss";
+@import "nuestra-mision.scss";
 
 
 #fields{
@@ -157,6 +158,10 @@ ul{
             font-size: 2.5vw;
         }
     }
+    .box-url{
+        width: 60%;
+        margin: 0 20% 20px 20%;
+    }
 }
 @media(max-width: 584px){
     .container{
@@ -248,4 +253,9 @@ ul{
     }
 }
 
-
+@media only screen and (max-height: 543px){
+    .ul{
+        display: flex;
+        flex-direction: row;
+    }
+}
