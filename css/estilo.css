@@ -398,6 +398,7 @@ main .text .text-h2 {
   font-size: 50px;
   text-align: center;
   margin-top: 20px;
+  font-weight: 300;
 }
 
 main .text .text-p {
@@ -527,24 +528,29 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
 }
 
 .container-nosotros .box-nosotros .text-nosotros h3 {
-  font-size: 40px;
+  font-size: 50px;
   margin-top: 90px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 
 .container-nosotros .box-nosotros .text-nosotros p {
   margin-top: 15px;
   font-size: 20px;
   margin-bottom: 25px;
+  font-weight: 300;
 }
 
 .container-nosotros .box-nosotros .text-nosotros h5 {
   font-size: 25px;
   margin-bottom: 25px;
+  font-weight: 300;
 }
 
 .container-nosotros .box-nosotros .text-nosotros h4 {
   font-size: 30px;
   margin-top: 80px;
+  font-weight: 400;
 }
 
 .container-nosotros .box-nosotros .div-img-nosotros .img-nosotros {
@@ -586,6 +592,7 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
   font-size: 50px;
   text-align: center;
   margin-top: 20px;
+  font-weight: 300;
 }
 
 .text-locales p {
@@ -895,22 +902,21 @@ form .button input:hover {
           justify-content: center;
 }
 
-.box-text .content-text {
-  min-width: 430px;
-  width: 50%;
-}
-
 .box-text .content-text h1 {
-  font-size: 40px;
-  margin-top: 30px;
-  text-align: center;
   font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 300;
 }
 
 .box-text .content-text p {
-  font-size: 16px;
-  text-align: center;
   font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin: 0 20px;
+  text-align: center;
+  width: 70%;
+  margin: 0 15%;
 }
 
 .content-trabaja {
@@ -1555,7 +1561,7 @@ a:hover span:nth-child(4) {
   margin-top: 190px;
   margin-left: 20px;
   margin-right: 20px;
-  background-color: #24262b;
+  background-color: black;
   width: 350px;
   height: 200px;
   display: -webkit-box;
@@ -1584,18 +1590,10 @@ a:hover span:nth-child(4) {
 
 .box-url a:hover {
   margin-left: 20px;
-  color: #9e9e9e;
-}
-
-.box-url .mision, .box-url .sobre-nosotros, .box-url .nuestra-empresa {
-  color: #9e9e9e;
-  font-size: 20px;
-  -webkit-transition: .4s ease all;
-  transition: .4s ease all;
+  color: white;
 }
 
 .conteiner-mision {
-  border: solid red 2px;
   width: 60%;
   min-width: 350px;
   font-family: 'Poppins', sans-serif;
@@ -1858,6 +1856,12 @@ ul {
     height: 400px;
     margin-bottom: 50px;
     overflow-y: scroll;
+  }
+  .box-text .content-text h1 {
+    font-size: 6vw;
+  }
+  .box-text .content-text p {
+    font-size: 3vw;
   }
 }
 
