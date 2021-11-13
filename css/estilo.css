@@ -694,11 +694,11 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
 }
 
 .body-forms header {
-  position: absolute;
+  position: static;
 }
 
 .body-forms header nav {
-  position: absolute;
+  position: static;
 }
 
 .create-acount {
@@ -710,14 +710,13 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 10px;
   background-color: #211f1b;
 }
 
 .container {
+  height: 550px;
+  margin-top: 30px;
   max-width: 700px;
   width: 100%;
   background-color: #fff;
@@ -725,6 +724,10 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
   border-radius: 5px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.log-in {
+  height: 450px;
 }
 
 .container .title {
@@ -1888,18 +1891,6 @@ ul {
   }
   .text-footer-bottom {
     font-size: 2.5vw;
-  }
-}
-
-@media only screen and (max-height: 543px) {
-  .ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
