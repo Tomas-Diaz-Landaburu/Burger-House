@@ -271,7 +271,6 @@ ul {
   text-transform: capitalize;
 }
 
-/*responsive*/
 .sizes {
   width: 100%;
   z-index: 1;
@@ -343,7 +342,7 @@ ul {
   width: 100%;
 }
 
-.img-prueba {
+.div-casa img {
   width: 100%;
 }
 

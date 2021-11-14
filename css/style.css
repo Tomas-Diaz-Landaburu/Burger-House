@@ -203,7 +203,6 @@ ul {
   word-spacing: 2px;
   text-transform: capitalize; }
 
-/*responsive*/
 .sizes {
   width: 100%;
   z-index: 1;
@@ -247,7 +246,7 @@ ul {
     .section__index__history .section__index .image-history img {
       width: 100%; }
 
-.img-prueba {
+.div-casa img {
   width: 100%; }
 
 .map {
