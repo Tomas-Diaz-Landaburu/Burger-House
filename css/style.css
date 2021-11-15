@@ -1105,6 +1105,7 @@ a:hover span:nth-child(4) {
   border-radius: 5px;
   box-shadow: 0 0 5px #24262b; }
   .box-url a {
+    text-decoration: none;
     color: white;
     margin-left: 5px;
     font-size: 20px;
@@ -1114,6 +1115,9 @@ a:hover span:nth-child(4) {
     .box-url a:hover {
       margin-left: 20px;
       color: white; }
+  .box-url .sobre-nosotros, .box-url .mision {
+    margin-left: 20px;
+    text-decoration: none; }
 
 .conteiner-mision {
   width: 60%;
