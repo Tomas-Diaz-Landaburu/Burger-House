@@ -232,12 +232,17 @@ ul{
     .box-text{
         .content-text{
             h1{
-                font-size: 6vw;
+                font-size: 7.2vw;
+                color: black;
             }
             p{
                 font-size: 3vw;
+                color: black;
             }
         }
+    }
+    .text-img-burgers, .text-img-nuestra{
+        display: none;
     }
 }
 @media only screen and (max-width: 483px){

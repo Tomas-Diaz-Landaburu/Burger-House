@@ -1,9 +1,32 @@
 
 main{
     .div__intro{
+        width: 100%;
+        position: relative;
+        display: inline-block;
         .div__intro__img{
             width: 100%;
             margin-top: 90px;
+        }
+        .text-img-nuestra{
+            position: absolute;
+            top: 40%;
+            left: 14%;
+            transform: translate(-50%, -50%);
+            font-size: 5vw;
+            color: white;
+            font-weight: 500;
+            font-family: 'Barlow', sans-serif;
+        }
+        .text-img-burgers{
+            position: absolute;
+            top: 50%;
+            left: 12.4%;
+            transform: translate(-50%, -50%);
+            font-size: 5vw;
+            color: $yellow;
+            font-weight: 700;
+            font-family: 'Barlow', sans-serif;
         }
     }
     .text{
