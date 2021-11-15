@@ -931,6 +931,11 @@ form .button input:hover {
     text-align: center;
     color: white;
     font-size: 18px; }
+  #div_file i {
+    margin-left: 35%;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 20px; }
   #div_file #btn_enviar {
     position: absolute;
     left: 0;
@@ -1311,7 +1316,9 @@ ul {
     font-size: 3vw;
     color: black; }
   .text-img-burgers, .text-img-nuestra {
-    display: none; } }
+    display: none; }
+  #div_file i {
+    margin-left: 30%; } }
 
 @media only screen and (max-width: 483px) {
   .box__div {
@@ -1325,4 +1332,10 @@ ul {
   .image-history img {
     display: none; }
   .text-footer-bottom {
-    font-size: 2.5vw; } }
+    font-size: 2.5vw; }
+  #div_file i {
+    margin-left: 20%; } }
+
+@media only screen and (max-width: 343px) {
+  #div_file i {
+    display: none; } }

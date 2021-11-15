@@ -244,6 +244,11 @@ ul{
     .text-img-burgers, .text-img-nuestra{
         display: none;
     }
+    #div_file{
+        i{
+            margin-left: 30%;
+        }
+    }
 }
 @media only screen and (max-width: 483px){
     .box__div{
@@ -264,5 +269,17 @@ ul{
     }
     .text-footer-bottom{
         font-size: 2.5vw;
+    }
+    #div_file{
+        i{
+            margin-left: 20%;
+        }
+    }
+}
+@media only screen and (max-width: 343px){
+    #div_file{
+        i{
+            display: none;
+        }
     }
 }
