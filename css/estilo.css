@@ -387,9 +387,39 @@ ul {
   text-align: center;
 }
 
+main .div__intro {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
 main .div__intro .div__intro__img {
   width: 100%;
   margin-top: 90px;
+}
+
+main .div__intro .text-img-nuestra {
+  position: absolute;
+  top: 40%;
+  left: 14%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 5vw;
+  color: white;
+  font-weight: 500;
+  font-family: 'Barlow', sans-serif;
+}
+
+main .div__intro .text-img-burgers {
+  position: absolute;
+  top: 50%;
+  left: 12.4%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 5vw;
+  color: #edb026;
+  font-weight: 700;
+  font-family: 'Barlow', sans-serif;
 }
 
 main .text .text-h2 {
@@ -618,7 +648,14 @@ main .box .box__div .box__div__mayor .box__div__text .box__div__btn .modal .moda
   margin: auto;
 }
 
-.modal-content {
+.map-div {
+  width: 30%;
+  max-width: 100%;
+  min-width: 350px;
+  margin: auto;
+}
+
+.modal-content-div {
   background-color: #eae5ce;
 }
 
@@ -1579,6 +1616,7 @@ a:hover span:nth-child(4) {
 }
 
 .box-url a {
+  text-decoration: none;
   color: white;
   margin-left: 5px;
   font-size: 20px;
@@ -1593,6 +1631,11 @@ a:hover span:nth-child(4) {
 .box-url a:hover {
   margin-left: 20px;
   color: white;
+}
+
+.box-url .sobre-nosotros, .box-url .mision {
+  margin-left: 20px;
+  text-decoration: none;
 }
 
 .conteiner-mision {
@@ -1860,10 +1903,15 @@ ul {
     overflow-y: scroll;
   }
   .box-text .content-text h1 {
-    font-size: 6vw;
+    font-size: 7.2vw;
+    color: black;
   }
   .box-text .content-text p {
     font-size: 3vw;
+    color: black;
+  }
+  .text-img-burgers, .text-img-nuestra {
+    display: none;
   }
 }
 
