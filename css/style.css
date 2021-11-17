@@ -411,7 +411,7 @@ main .box {
   .container-nosotros .box-nosotros .div-img-nosotros .img-nosotros {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 0 20px 0 rgba(41, 41, 41, 0.406); }
+    box-shadow: 0 0 20px 0 rgba(41, 41, 41, 0.405); }
   .container-nosotros .box-nosotros .div-img-nosotros .last {
     margin-bottom: 30px; }
 
@@ -1103,32 +1103,6 @@ a:hover span:nth-child(4) {
   justify-content: center;
   flex-wrap: wrap; }
 
-.box-url {
-  font-family: 'Poppins', sans-serif;
-  margin-top: 190px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: black;
-  width: 350px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #24262b; }
-  .box-url a {
-    text-decoration: none;
-    color: white;
-    margin-left: 5px;
-    font-size: 20px;
-    transition: .4s ease all; }
-    .box-url a:first-child {
-      font-size: 28px; }
-    .box-url a:hover {
-      margin-left: 20px;
-      color: white; }
-  .box-url .sobre-nosotros, .box-url .mision {
-    margin-left: 20px;
-    text-decoration: none; }
 .conteiner-mision {
   width: 60%;
   min-width: 350px;
@@ -1137,6 +1111,10 @@ a:hover span:nth-child(4) {
     margin-bottom: 40px; }
     .conteiner-mision .content-mision h1 {
       margin-top: 190px;
+      font-weight: 500;
+      font-size: 45px; }
+    .conteiner-mision .content-mision h2 {
+      margin-top: 50px;
       font-weight: 500;
       font-size: 35px; }
     .conteiner-mision .content-mision h3 {

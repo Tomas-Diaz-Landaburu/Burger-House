@@ -3,37 +3,6 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-.box-url{
-    font-family: 'Poppins', sans-serif;
-    margin-top: 190px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: black;
-    width: 350px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgb(36, 38, 43);
-    a{
-        text-decoration: none;
-        color: white;
-        margin-left: 5px;
-        font-size: 20px;
-        transition: .4s ease all;
-        &:first-child{
-            font-size: 28px;
-        }
-        &:hover{
-            margin-left: 20px;
-            color: white;
-        }
-    }
-    .sobre-nosotros, .mision{
-        margin-left:20px;
-        text-decoration: none;
-    }
-}
 .conteiner-mision{
     width: 60%;
     min-width: 350px;
@@ -42,6 +11,11 @@
         margin-bottom: 40px;
         h1{
             margin-top: 190px;
+            font-weight: 500;
+            font-size: 45px;
+        }
+        h2{
+            margin-top: 50px;
             font-weight: 500;
             font-size: 35px;
         }
